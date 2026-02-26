@@ -142,6 +142,21 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                           })}
                         </ol>
                       );
+                    } else if (paragraph.startsWith('[') && paragraph.includes('](')) {
+                      const linkMatch = paragraph.match(/\[([^\]]+)\]\(([^)]+)\)/);
+                      if (linkMatch) {
+                        const [, linkText, linkUrl] = linkMatch;
+                        return (
+                          <div key={index} className="mb-6">
+                            <Button asChild className="bg-blue-600 hover:bg-blue-700">
+                              <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+                                {linkText}
+                              </a>
+                            </Button>
+                          </div>
+                        );
+                      }
+                      return null;
                     } else {
                       const parts = paragraph.split(/(\*\*.*?\*\*)/g);
                       return (
