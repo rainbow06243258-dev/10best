@@ -106,28 +106,52 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                       const items = paragraph.split('\n');
                       return (
                         <ul key={index} className="list-disc pl-6 mb-4 space-y-2">
-                          {items.map((item, itemIndex) => (
-                            <li key={itemIndex} className="text-gray-700">
-                              {item.replace('- ', '').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}
-                            </li>
-                          ))}
+                          {items.map((item, itemIndex) => {
+                            const text = item.replace('- ', '');
+                            const parts = text.split(/(\*\*.*?\*\*)/g);
+                            return (
+                              <li key={itemIndex} className="text-gray-700">
+                                {parts.map((part, partIndex) => {
+                                  if (part.startsWith('**') && part.endsWith('**')) {
+                                    return <strong key={partIndex}>{part.slice(2, -2)}</strong>;
+                                  }
+                                  return part;
+                                })}
+                              </li>
+                            );
+                          })}
                         </ul>
                       );
                     } else if (/^\d+\./.test(paragraph)) {
                       const items = paragraph.split('\n');
                       return (
                         <ol key={index} className="list-decimal pl-6 mb-4 space-y-2">
-                          {items.map((item, itemIndex) => (
-                            <li key={itemIndex} className="text-gray-700">
-                              {item.replace(/^\d+\.\s/, '')}
-                            </li>
-                          ))}
+                          {items.map((item, itemIndex) => {
+                            const text = item.replace(/^\d+\.\s/, '');
+                            const parts = text.split(/(\*\*.*?\*\*)/g);
+                            return (
+                              <li key={itemIndex} className="text-gray-700">
+                                {parts.map((part, partIndex) => {
+                                  if (part.startsWith('**') && part.endsWith('**')) {
+                                    return <strong key={partIndex}>{part.slice(2, -2)}</strong>;
+                                  }
+                                  return part;
+                                })}
+                              </li>
+                            );
+                          })}
                         </ol>
                       );
                     } else {
+                      const parts = paragraph.split(/(\*\*.*?\*\*)/g);
                       return (
                         <p key={index} className="text-gray-700 leading-relaxed mb-4">
-                          {paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}
+                          {parts.map((part, partIndex) => {
+                            if (part.startsWith('**') && part.endsWith('**')) {
+                              return <strong key={partIndex}>{part.slice(2, -2)}</strong>;
+                            }
+                            return part;
+                          })}
                         </p>
                       );
                     }
