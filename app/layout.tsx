@@ -49,6 +49,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="lhverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
+        <meta name="verify-yeahpromos" content="a2451d5dd217" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
