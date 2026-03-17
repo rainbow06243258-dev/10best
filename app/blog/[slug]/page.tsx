@@ -82,6 +82,35 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   />
                 </div>
 
+                {params.slug === '10-best-cecred-hair-products' && (
+                  <div className="mb-8 p-8 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl border-2 border-amber-200 shadow-lg">
+                    <div className="text-center space-y-4">
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Ready to Transform Your Hair?
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the complete Cécred collection and discover products designed for your unique hair needs. Science-backed formulas meet traditional haircare wisdom.
+                      </p>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white font-semibold px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=06f7vC3IudU8LfxaQlED74tpA31kiVuMT2a_apWLfak4XMp9mHC7BLD8LG4Pmq0UL0PrBwAo_c&new=https%3A%2F%2Fcecred.com%2F"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Visit Cécred Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600">
+                        Free shipping on orders over $50 • 30-day satisfaction guarantee
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 <div className="prose prose-lg max-w-none">
                   {post.content.split('\n\n').map((paragraph, index) => {
                     if (paragraph.startsWith('## ')) {
