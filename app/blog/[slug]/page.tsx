@@ -82,6 +82,35 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   />
                 </div>
 
+                {params.slug === '10-best-cabinzero-travel-bags-worth-buying-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-r from-sky-50 to-teal-50 rounded-2xl border-2 border-sky-200 shadow-lg">
+                    <div className="text-center space-y-4">
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Ready for a Zero-Hassle Journey?
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the full CabinZero collection and discover travel bags engineered for every adventure. Lab-tested airline dimensions, 25-year warranty, and Okoban global tracking included.
+                      </p>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-sky-600 to-teal-600 hover:from-sky-700 hover:to-teal-700 text-white font-semibold px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=f9afUZoTEfCADc1TvlvxDGU0R_ao2qelWeEX34_a7wkMAy6_aGt_adxVUAS13rGnNewsW1fbf0I_c&new=https%3A%2F%2Fwww.cabinzero.com%2F"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Visit CabinZero Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600">
+                        Free global shipping available • 25-year warranty on every bag
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 {params.slug === '10-best-cecred-hair-products' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl border-2 border-amber-200 shadow-lg">
                     <div className="text-center space-y-4">
