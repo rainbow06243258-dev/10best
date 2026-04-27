@@ -82,6 +82,35 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   />
                 </div>
 
+                {params.slug === '10-best-petal-and-pup-dresses-worth-buying-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl border-2 border-rose-200 shadow-lg">
+                    <div className="text-center space-y-4">
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Discover Your Perfect Dress
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Browse the full Petal & Pup 2026 collection -- from wedding-guest stunners to everyday staples. Effortlessly chic style with "True to Fit" sizing you can trust.
+                      </p>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white font-semibold px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=6074qmtPCxUblAbbPbvwRREN1_a4iWEO2qPMb_b5AxAcyqGEtLOuKsn3KjDVSh9G4Vw3vqovvMFrBzng_c_c&new=https%3A%2F%2Fpetalandpup.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Visit Petal & Pup Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600">
+                        Free shipping on orders over $50 • Easy 30-day returns
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 {params.slug === '10-best-cabinzero-travel-bags-worth-buying-2026' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-sky-50 to-teal-50 rounded-2xl border-2 border-sky-200 shadow-lg">
                     <div className="text-center space-y-4">
