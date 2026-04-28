@@ -140,6 +140,35 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === '10-best-mammotion-robotic-mowers-worth-buying-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-r from-emerald-50 to-green-50 rounded-2xl border-2 border-emerald-200 shadow-lg">
+                    <div className="text-center space-y-4">
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Ready to Transform Your Lawn Care?
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the full Mammotion 2026 lineup -- from the flagship LUBA 3 AWD to the creative Lawn Printing 2.0. AI-driven precision, All-Wheel Drive performance, and wire-free setup for the ultimate smart yard.
+                      </p>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700 text-white font-semibold px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=ff46968YaXGhJZw2_acXtKMC23LuU6jOzGs_bqXDI5IazwD0D_bD8Zhshk8hTQGl7Wu0NZZYUZDdwrnzg_c_c&new=https%3A%2F%2Fde.mammotion.com%2F"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Visit Mammotion Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600">
+                        Free shipping available on select models • 2-year warranty included
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 {params.slug === '10-best-cecred-hair-products' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl border-2 border-amber-200 shadow-lg">
                     <div className="text-center space-y-4">
