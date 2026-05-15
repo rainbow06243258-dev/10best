@@ -140,6 +140,35 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === '10-best-vilebrequin-pieces-worth-buying-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl border-2 border-cyan-200 shadow-lg">
+                    <div className="text-center space-y-4">
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Experience Saint-Tropez Elegance
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the full Vilebrequin 2026 collection — from iconic Moorea swim trunks to artisan-crafted linen shirts. Over 50 years of French Riviera luxury in every piece.
+                      </p>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-cyan-700 to-blue-700 hover:from-cyan-800 hover:to-blue-800 text-white font-semibold px-8 py-6 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+                      >
+                        <a
+                          href="https://www.vilebrequin.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Visit Vilebrequin Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600">
+                        Complimentary shipping on orders over $200 • Sustainable luxury since 1971
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 {params.slug === '10-best-mammotion-robotic-mowers-worth-buying-2026' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-emerald-50 to-green-50 rounded-2xl border-2 border-emerald-200 shadow-lg">
                     <div className="text-center space-y-4">
