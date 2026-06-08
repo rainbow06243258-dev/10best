@@ -227,6 +227,50 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === '10-best-ariat-cowboy-boots-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-r from-stone-50 via-amber-50 to-orange-50 rounded-2xl border-2 border-amber-300 shadow-lg relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-40 h-40 opacity-10">
+                      <svg viewBox="0 0 100 100" className="w-full h-full text-amber-800">
+                        <path d="M20 80 L50 20 L80 80 Z" fill="currentColor" />
+                        <circle cx="35" cy="65" r="8" fill="currentColor" />
+                        <circle cx="65" cy="65" r="8" fill="currentColor" />
+                      </svg>
+                    </div>
+                    <div className="text-center space-y-4 relative z-10">
+                      <div className="inline-block mb-2">
+                        <span className="text-4xl">🤠</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Find Your Perfect Pair of Ariat Boots
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the full Ariat 2026 collection — from the legendary Heritage Roughstock to the rugged WorkHog. Discover why Ariat has been the #1 Western footwear brand for over 30 years.
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600 mb-2">
+                        <span className="bg-white/60 px-3 py-1 rounded-full">✓ ATS Comfort Technology</span>
+                        <span className="bg-white/60 px-3 py-1 rounded-full">✓ Premium Full-Grain Leather</span>
+                        <span className="bg-white/60 px-3 py-1 rounded-full">✓ Free Shipping & Returns</span>
+                      </div>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-amber-700 via-orange-600 to-amber-700 hover:from-amber-800 hover:via-orange-700 hover:to-amber-800 text-white font-bold px-10 py-7 text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 rounded-full border-2 border-amber-400/30"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2c74Q0_bbnhhmZCadfPt5rgkgvEaSfG_bn1L2UFZQn6zgmrmGu8T2fke_bs1AhEsfirrapC2Q_c_c&new=https%3A%2F%2Fwww.ariat.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          🛍️ Shop Ariat Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600 font-medium">
+                        Free shipping & easy returns • Limited-time 2026 spring collection now available
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 <div className="prose prose-lg max-w-none">
                   {post.content.split('\n\n').map((paragraph, index) => {
                     if (paragraph.startsWith('## ')) {
