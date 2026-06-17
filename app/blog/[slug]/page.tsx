@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, Calendar } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, Share2, BookOpen, ChevronRight } from 'lucide-react';
 import { getBlogPost, getAllBlogPosts } from '@/lib/blog-posts';
 
 export async function generateStaticParams() {
@@ -35,6 +35,29 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
+// Color scheme mapping for different categories
+function getCategoryColor(category: string): string {
+  const colors: Record<string, string> = {
+    'Travel': 'from-blue-600 to-cyan-500',
+    'Fashion': 'from-rose-600 to-pink-500',
+    'Beauty': 'from-amber-600 to-orange-500',
+    'Home & Kitchen': 'from-emerald-600 to-green-500',
+    'Electronics': 'from-violet-600 to-purple-500',
+    'Health & Fitness': 'from-teal-600 to-emerald-500',
+    'Office': 'from-slate-600 to-gray-500',
+    'Health & Beauty': 'from-amber-600 to-rose-500',
+    'Smart Home': 'from-indigo-600 to-blue-500',
+    'Lifestyle': 'from-orange-600 to-red-500',
+  };
+  return colors[category] || 'from-blue-600 to-indigo-500';
+}
+
+function getReadingTime(content: string): number {
+  const wordsPerMinute = 200;
+  const wordCount = content.split(/\s+/).length;
+  return Math.max(1, Math.ceil(wordCount / wordsPerMinute));
+}
+
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = getBlogPost(params.slug);
 
@@ -42,45 +65,102 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     notFound();
   }
 
+  const readingTime = getReadingTime(post.content);
+  const categoryGradient = getCategoryColor(post.category);
+  const relatedPosts = getAllBlogPosts()
+    .filter(p => p.slug !== post.slug && p.category === post.category)
+    .slice(0, 3);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
 
       <main className="flex-1">
-        <article className="w-full py-12">
-          <div className="container px-4 md:px-6">
-            <div className="max-w-3xl mx-auto">
-              <Button variant="ghost" asChild className="mb-6">
-                <Link href="/blog">
-                  <ArrowLeft className="mr-2 h-4 w-4" />
-                  Back to Blog
-                </Link>
-              </Button>
+        <article>
+          {/* Hero Header */}
+          <div className={`relative bg-gradient-to-br ${categoryGradient} overflow-hidden`}>
+            {/* Decorative elements */}
+            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMyIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-black/10 rounded-full blur-3xl" />
 
-              <div className="space-y-6">
-                <div>
-                  <Badge className="mb-4">{post.category}</Badge>
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">
-                    {post.title}
-                  </h1>
-                  <p className="text-xl text-gray-600 mb-4">{post.description}</p>
-                  <div className="flex items-center text-sm text-gray-500">
-                    <Calendar className="h-4 w-4 mr-2" />
+            <div className="container px-4 md:px-6 relative z-10 py-12 md:py-16">
+              <div className="max-w-4xl mx-auto">
+                {/* Breadcrumb */}
+                <nav className="flex items-center gap-2 text-sm mb-6 text-white/80">
+                  <Link href="/" className="hover:text-white transition-colors">Home</Link>
+                  <ChevronRight className="h-3 w-3" />
+                  <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+                  <ChevronRight className="h-3 w-3" />
+                  <span className="text-white truncate max-w-[200px]">{post.title}</span>
+                </nav>
+
+                {/* Category badge */}
+                <Badge className="mb-4 bg-white/20 backdrop-blur-sm text-white border-0 hover:bg-white/30">
+                  {post.category}
+                </Badge>
+
+                <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
+                  {post.title}
+                </h1>
+                <p className="text-xl text-white/90 max-w-3xl leading-relaxed">
+                  {post.description}
+                </p>
+                <div className="flex flex-wrap items-center gap-4 mt-6 text-white/80 text-sm">
+                  <span className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                    <Calendar className="h-4 w-4" />
                     {new Date(post.date).toLocaleDateString('en-US', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric'
                     })}
-                  </div>
+                  </span>
+                  <span className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                    <Clock className="h-4 w-4" />
+                    {readingTime} min read
+                  </span>
+                  <span className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                    <BookOpen className="h-4 w-4" />
+                    {post.content.split(/\s+/).length.toLocaleString()} words
+                  </span>
                 </div>
+              </div>
+            </div>
 
-                <div className="aspect-video relative overflow-hidden rounded-lg">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="object-cover w-full h-full"
-                  />
-                </div>
+            {/* Bottom wave */}
+            <div className="relative h-8 md:h-12">
+              <svg viewBox="0 0 1440 50" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute bottom-0 w-full h-full">
+                <path d="M0 50V35C240 10 480 0 720 12C960 24 1200 8 1440 22V50H0Z" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          {/* Content Section */}
+          <div className="container px-4 md:px-6 py-8">
+            <div className="max-w-6xl mx-auto">
+              <div className="flex gap-8">
+                {/* Main Content */}
+                <div className="flex-1 max-w-3xl">
+                  {/* Back button */}
+                  <Button variant="ghost" asChild className="mb-8 -ml-3 text-gray-500 hover:text-gray-700">
+                    <Link href="/blog">
+                      <ArrowLeft className="mr-2 h-4 w-4" />
+                      Back to All Reviews
+                    </Link>
+                  </Button>
+
+                  {/* Featured Image */}
+                  <div className="aspect-[21/9] relative overflow-hidden rounded-2xl mb-10 shadow-xl">
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="object-cover w-full h-full"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                  </div>
+
+                  {/* CTA Boxes at top (before content) */}
+                  <div className="space-y-6">
 
                 {params.slug === '10-best-petal-and-pup-dresses-worth-buying-2026' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl border-2 border-rose-200 shadow-lg">
@@ -227,6 +307,54 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === 'enterprise-rent-a-car-10-best-rental-cars-comfort-value' && (
+                  <div className="mb-8 p-8 bg-gradient-to-br from-emerald-50 via-green-50 to-teal-50 rounded-2xl border-2 border-emerald-200 shadow-lg relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
+                      <svg viewBox="0 0 100 100" className="w-full h-full text-emerald-800">
+                        <path d="M10 60 Q30 40 50 55 Q70 70 90 45" stroke="currentColor" strokeWidth="3" fill="none"/>
+                        <circle cx="30" cy="45" r="6" fill="currentColor"/>
+                        <circle cx="55" cy="50" r="5" fill="currentColor"/>
+                        <circle cx="75" cy="40" r="4" fill="currentColor"/>
+                        <rect x="20" y="65" width="60" height="25" rx="3" fill="currentColor" opacity="0.5"/>
+                        <circle cx="35" cy="77" r="5" fill="white" opacity="0.8"/>
+                        <circle cx="65" cy="77" r="5" fill="white" opacity="0.8"/>
+                      </svg>
+                    </div>
+                    <div className="text-center space-y-4 relative z-10">
+                      <div className="inline-block mb-2">
+                        <span className="text-5xl">🚗</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Find Your Perfect Rental Car with Enterprise
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the full Enterprise fleet and discover the ideal vehicle for your next trip. From fuel-efficient compacts to spacious SUVs and luxury sedans—with 7,600+ locations worldwide and award-winning customer service.
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600 mb-2">
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Free Pick-Up Service</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ 7,600+ Locations Worldwide</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Clean, Inspected Vehicles</span>
+                      </div>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-700 hover:via-green-700 hover:to-teal-700 text-white font-bold px-10 py-7 text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 rounded-full border-2 border-emerald-400/30"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=c2aaIGYx86Jc6hIPJ45wP_bE41O_bb9VNISWbm7mSA98Z7nTUpiUCXzw0TocQiSOwdbtRBcEf_aeMg_c&new=http%3A%2F%2Fwww.enterprise.com%2Fen%2Fhome.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          🚗 Book with Enterprise Rent-A-Car →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600 font-medium">
+                        Join Enterprise Plus for free • Earn points on every rental • Best rates when you book early
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 {params.slug === '10-best-ariat-cowboy-boots-2026' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-stone-50 via-amber-50 to-orange-50 rounded-2xl border-2 border-amber-300 shadow-lg relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-40 h-40 opacity-10">
@@ -271,105 +399,223 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
-                <div className="prose prose-lg max-w-none">
-                  {post.content.split('\n\n').map((paragraph, index) => {
-                    if (paragraph.startsWith('## ')) {
-                      return (
-                        <h2 key={index} className="text-2xl font-bold mt-8 mb-4">
-                          {paragraph.replace('## ', '')}
-                        </h2>
-                      );
-                    } else if (paragraph.startsWith('### ')) {
-                      return (
-                        <h3 key={index} className="text-xl font-bold mt-6 mb-3">
-                          {paragraph.replace('### ', '')}
-                        </h3>
-                      );
-                    } else if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
-                      return (
-                        <p key={index} className="font-semibold mb-4">
-                          {paragraph.replace(/\*\*/g, '')}
-                        </p>
-                      );
-                    } else if (paragraph.startsWith('- ')) {
-                      const items = paragraph.split('\n');
-                      return (
-                        <ul key={index} className="list-disc pl-6 mb-4 space-y-2">
-                          {items.map((item, itemIndex) => {
-                            const text = item.replace('- ', '');
-                            const parts = text.split(/(\*\*.*?\*\*)/g);
-                            return (
-                              <li key={itemIndex} className="text-gray-700">
-                                {parts.map((part, partIndex) => {
-                                  if (part.startsWith('**') && part.endsWith('**')) {
-                                    return <strong key={partIndex}>{part.slice(2, -2)}</strong>;
-                                  }
-                                  return part;
-                                })}
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      );
-                    } else if (/^\d+\./.test(paragraph)) {
-                      const items = paragraph.split('\n');
-                      return (
-                        <ol key={index} className="list-decimal pl-6 mb-4 space-y-2">
-                          {items.map((item, itemIndex) => {
-                            const text = item.replace(/^\d+\.\s/, '');
-                            const parts = text.split(/(\*\*.*?\*\*)/g);
-                            return (
-                              <li key={itemIndex} className="text-gray-700">
-                                {parts.map((part, partIndex) => {
-                                  if (part.startsWith('**') && part.endsWith('**')) {
-                                    return <strong key={partIndex}>{part.slice(2, -2)}</strong>;
-                                  }
-                                  return part;
-                                })}
-                              </li>
-                            );
-                          })}
-                        </ol>
-                      );
-                    } else if (paragraph.startsWith('[') && paragraph.includes('](')) {
-                      const linkMatch = paragraph.match(/\[([^\]]+)\]\(([^)]+)\)/);
-                      if (linkMatch) {
-                        const [, linkText, linkUrl] = linkMatch;
+                  </div>
+
+                  {/* Article Content */}
+                  <div className="prose prose-lg max-w-none prose-headings:scroll-mt-20">
+                    {post.content.split('\n\n').map((paragraph, index) => {
+                      if (paragraph.startsWith('## ')) {
+                        const headingId = paragraph.replace('## ', '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
                         return (
-                          <div key={index} className="mb-6">
-                            <Button asChild className="bg-blue-600 hover:bg-blue-700">
-                              <a href={linkUrl} target="_blank" rel="noopener noreferrer">
-                                {linkText}
-                              </a>
-                            </Button>
-                          </div>
+                          <h2 key={index} id={headingId} className="text-2xl font-bold mt-12 mb-5 pb-2 border-b-2 border-gray-100 flex items-center gap-3">
+                            <span className={`w-1.5 h-8 rounded-full bg-gradient-to-b ${categoryGradient}`} />
+                            {paragraph.replace('## ', '')}
+                          </h2>
+                        );
+                      } else if (paragraph.startsWith('### ')) {
+                        return (
+                          <h3 key={index} className="text-xl font-bold mt-8 mb-4 text-gray-800">
+                            {paragraph.replace('### ', '')}
+                          </h3>
+                        );
+                      } else if (paragraph.startsWith('**') && paragraph.endsWith('**') && !paragraph.includes('\n')) {
+                        return (
+                          <p key={index} className="font-semibold text-gray-800 mb-4 text-lg">
+                            {paragraph.replace(/\*\*/g, '')}
+                          </p>
+                        );
+                      } else if (paragraph.startsWith('- ')) {
+                        const items = paragraph.split('\n');
+                        return (
+                          <ul key={index} className="space-y-2 my-4">
+                            {items.map((item, itemIndex) => {
+                              const text = item.replace('- ', '');
+                              const parts = text.split(/(\*\*.*?\*\*)/g);
+                              return (
+                                <li key={itemIndex} className="flex items-start gap-2 text-gray-700">
+                                  <span className={`mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-gradient-to-b ${categoryGradient}`} />
+                                  <span>
+                                    {parts.map((part, partIndex) => {
+                                      if (part.startsWith('**') && part.endsWith('**')) {
+                                        return <strong key={partIndex} className="text-gray-900 font-semibold">{part.slice(2, -2)}</strong>;
+                                      }
+                                      return part;
+                                    })}
+                                  </span>
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        );
+                      } else if (/^\d+\./.test(paragraph)) {
+                        const items = paragraph.split('\n');
+                        return (
+                          <ol key={index} className="space-y-2 my-4 list-none pl-0">
+                            {items.map((item, itemIndex) => {
+                              const text = item.replace(/^\d+\.\s/, '');
+                              const parts = text.split(/(\*\*.*?\*\*)/g);
+                              return (
+                                <li key={itemIndex} className="flex items-start gap-3 text-gray-700">
+                                  <span className={`mt-0.5 w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 text-white text-xs font-bold bg-gradient-to-b ${categoryGradient}`}>
+                                    {itemIndex + 1}
+                                  </span>
+                                  <span>
+                                    {parts.map((part, partIndex) => {
+                                      if (part.startsWith('**') && part.endsWith('**')) {
+                                        return <strong key={partIndex} className="text-gray-900 font-semibold">{part.slice(2, -2)}</strong>;
+                                      }
+                                      return part;
+                                    })}
+                                  </span>
+                                </li>
+                              );
+                            })}
+                          </ol>
+                        );
+                      } else if (paragraph.startsWith('[') && paragraph.includes('](')) {
+                        const linkMatch = paragraph.match(/\[([^\]]+)\]\(([^)]+)\)/);
+                        if (linkMatch) {
+                          const [, linkText, linkUrl] = linkMatch;
+                          return (
+                            <div key={index} className="my-6">
+                              <Button asChild className={`bg-gradient-to-r ${categoryGradient} hover:opacity-90 shadow-lg`}>
+                                <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+                                  {linkText}
+                                </a>
+                              </Button>
+                            </div>
+                          );
+                        }
+                        return null;
+                      } else {
+                        const parts = paragraph.split(/(\*\*.*?\*\*)/g);
+                        return (
+                          <p key={index} className="text-gray-700 leading-relaxed mb-5 text-[1.05rem]">
+                            {parts.map((part, partIndex) => {
+                              if (part.startsWith('**') && part.endsWith('**')) {
+                                return <strong key={partIndex} className="text-gray-900 font-semibold">{part.slice(2, -2)}</strong>;
+                              }
+                              return part;
+                            })}
+                          </p>
                         );
                       }
-                      return null;
-                    } else {
-                      const parts = paragraph.split(/(\*\*.*?\*\*)/g);
-                      return (
-                        <p key={index} className="text-gray-700 leading-relaxed mb-4">
-                          {parts.map((part, partIndex) => {
-                            if (part.startsWith('**') && part.endsWith('**')) {
-                              return <strong key={partIndex}>{part.slice(2, -2)}</strong>;
-                            }
-                            return part;
-                          })}
-                        </p>
-                      );
-                    }
-                  })}
+                    })}
+                  </div>
+
+                  {/* Share & Disclosure */}
+                  <div className="mt-16 space-y-6">
+                    {/* Share section */}
+                    <div className="flex flex-wrap items-center justify-between gap-4 p-6 bg-gray-50 rounded-2xl border border-gray-100">
+                      <div className="flex items-center gap-2 text-gray-700">
+                        <Share2 className="h-5 w-5" />
+                        <span className="font-semibold">Share this guide</span>
+                      </div>
+                      <div className="flex gap-2">
+                        <Button variant="outline" size="sm" className="rounded-full" asChild>
+                          <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://10bestpick.online/blog/${post.slug}`)}`} target="_blank" rel="noopener noreferrer">
+                            𝕏 Share
+                          </a>
+                        </Button>
+                        <Button variant="outline" size="sm" className="rounded-full" asChild>
+                          <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://10bestpick.online/blog/${post.slug}`)}`} target="_blank" rel="noopener noreferrer">
+                            📘 Share
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
+
+                    {/* Affiliate Disclosure */}
+                    <div className="p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-100">
+                      <div className="flex gap-3">
+                        <span className="text-2xl">ℹ️</span>
+                        <div>
+                          <h3 className="text-base font-bold text-gray-900 mb-1">Affiliate Disclosure</h3>
+                          <p className="text-sm text-gray-600 leading-relaxed">
+                            We may earn a commission when you click on links to products we recommend and make a purchase.
+                            This comes at no additional cost to you. Our recommendations are based on thorough research and
+                            genuine value to our readers.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-                <div className="mt-12 p-6 bg-blue-50 rounded-lg">
-                  <h3 className="text-lg font-bold mb-2">Affiliate Disclosure</h3>
-                  <p className="text-sm text-gray-600">
-                    We may earn a commission when you click on links to products we recommend and make a purchase.
-                    This comes at no additional cost to you. Our recommendations are based on thorough research and
-                    genuine value to our readers.
-                  </p>
-                </div>
+                {/* Sidebar */}
+                <aside className="hidden lg:block w-80 flex-shrink-0">
+                  <div className="sticky top-24 space-y-6">
+                    {/* Related posts */}
+                    {relatedPosts.length > 0 && (
+                      <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm">
+                        <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
+                          <BookOpen className="h-4 w-4 text-blue-600" />
+                          More in {post.category}
+                        </h3>
+                        <div className="space-y-4">
+                          {relatedPosts.map((related) => (
+                            <Link
+                              key={related.slug}
+                              href={`/blog/${related.slug}`}
+                              className="block group"
+                            >
+                              <div className="flex gap-3">
+                                <div className="w-20 h-16 rounded-lg overflow-hidden flex-shrink-0">
+                                  <img
+                                    src={related.image}
+                                    alt={related.title}
+                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                  />
+                                </div>
+                                <div className="flex-1 min-w-0">
+                                  <h4 className="text-sm font-semibold text-gray-900 group-hover:text-blue-700 transition-colors line-clamp-2">
+                                    {related.title}
+                                  </h4>
+                                  <p className="text-xs text-gray-500 mt-1">
+                                    {new Date(related.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                                  </p>
+                                </div>
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Quick stats card */}
+                    <div className={`bg-gradient-to-br ${categoryGradient} rounded-2xl p-6 text-white shadow-lg`}>
+                      <h3 className="text-lg font-bold mb-3">About This Guide</h3>
+                      <ul className="space-y-2 text-sm text-white/90">
+                        <li className="flex justify-between">
+                          <span>Category</span>
+                          <span className="font-semibold">{post.category}</span>
+                        </li>
+                        <li className="flex justify-between">
+                          <span>Reading Time</span>
+                          <span className="font-semibold">{readingTime} min</span>
+                        </li>
+                        <li className="flex justify-between">
+                          <span>Published</span>
+                          <span className="font-semibold">
+                            {new Date(post.date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+                          </span>
+                        </li>
+                        <li className="flex justify-between">
+                          <span>Word Count</span>
+                          <span className="font-semibold">{post.content.split(/\s+/).length.toLocaleString()}</span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Back to blog button */}
+                    <Button variant="outline" asChild className="w-full rounded-xl">
+                      <Link href="/blog">
+                        <ArrowLeft className="mr-2 h-4 w-4" />
+                        Back to All Reviews
+                      </Link>
+                    </Button>
+                  </div>
+                </aside>
               </div>
             </div>
           </div>
