@@ -28,11 +28,14 @@ export default function BlogPage() {
           {/* Background */}
           <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900">
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDE4YzAgMS4xLS45IDItMiAyaC0yYy0xLjEgMC0yLS45LTItMlYxNmMwLTEuMS45LTIgMi0yaDJjMS4xIDAgMiAuOSAyIDJ2MnoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-40" />
+            {/* Animated gradient overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 via-transparent to-violet-500/5 animate-pulse" style={{ animationDuration: '8s' }} />
           </div>
 
           {/* Decorative shapes */}
           <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-emerald-400/20 to-transparent rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-72 h-72 bg-gradient-to-tr from-blue-400/20 to-transparent rounded-full blur-3xl" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-indigo-400/5 via-transparent to-cyan-400/5 rounded-full blur-3xl" />
 
           <div className="container px-4 md:px-6 relative z-10">
             <div className="max-w-4xl mx-auto text-center space-y-6">

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ReadingProgress from '@/components/ReadingProgress';
+import BackToTop from '@/components/BackToTop';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, Calendar, Clock, Share2, BookOpen, ChevronRight } from 'lucide-react';
@@ -404,6 +405,55 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === '10-best-national-car-rental-vehicles-family-trips-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-br from-emerald-50 via-green-50 to-teal-50 rounded-2xl border-2 border-emerald-300 shadow-lg relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
+                      <svg viewBox="0 0 100 100" className="w-full h-full text-emerald-800">
+                        <circle cx="50" cy="30" r="22" fill="currentColor" opacity="0.25"/>
+                        <path d="M5 72 Q25 55 50 68 Q75 81 95 62" stroke="currentColor" strokeWidth="3" fill="none"/>
+                        <rect x="15" y="58" width="16" height="28" rx="3" fill="currentColor" opacity="0.5"/>
+                        <rect x="42" y="63" width="16" height="23" rx="3" fill="currentColor" opacity="0.7"/>
+                        <rect x="69" y="55" width="16" height="31" rx="3" fill="currentColor" opacity="0.5"/>
+                        <circle cx="23" cy="66" r="5" fill="white" opacity="0.4"/>
+                        <circle cx="50" cy="71" r="5" fill="white" opacity="0.4"/>
+                        <circle cx="77" cy="63" r="5" fill="white" opacity="0.4"/>
+                      </svg>
+                    </div>
+                    <div className="text-center space-y-4 relative z-10">
+                      <div className="inline-block mb-2">
+                        <span className="text-5xl">🚐</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Plan Your Perfect Family Road Trip with National
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore National Car Rental's premium 2026 fleet featuring spacious minivans and three-row SUVs. Join the free Emerald Club to skip the counter, choose your own vehicle, and earn points toward free rental days.
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600 mb-2">
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Skip the Counter — Go Straight to the Lot</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Choose Your Own Vehicle</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Free Emerald Club Membership</span>
+                      </div>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-700 hover:via-green-700 hover:to-teal-700 text-white font-bold px-10 py-7 text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 rounded-full border-2 border-emerald-400/30"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=9d57EPgXOy2u7LHCZvNRsEN1_a4iWEO2qPMb_b5AxAcyqGEtLOuKsn3KjDVSh9G4Vw3vqovvMFrBzng_c_c&new=https%3A%2F%2Fwww.nationalcar.com%2Fen%2Fhome.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          🚐 Browse National Car Rental Deals →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600 font-medium">
+                        Join Emerald Club for free • Earn points toward free days • Premium fleet with the newest vehicles
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 {params.slug === '10-best-ariat-cowboy-boots-2026' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-stone-50 via-amber-50 to-orange-50 rounded-2xl border-2 border-amber-300 shadow-lg relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-40 h-40 opacity-10">
@@ -680,6 +730,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       </main>
 
       <Footer />
+      <BackToTop />
     </div>
   );
 }
