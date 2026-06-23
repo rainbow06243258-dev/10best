@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Search, TrendingUp, Clock, Star, ChevronRight } from 'lucide-react';
+import { ArrowRight, Search, TrendingUp, Clock, Star, ChevronRight, Sparkles } from 'lucide-react';
 import { getAllBlogPosts } from '@/lib/blog-posts';
 
 export const metadata: Metadata = {
@@ -154,11 +154,11 @@ export default function BlogPage() {
                 {posts.map((post, index) => (
                   <Card
                     key={post.slug}
-                    className="group overflow-hidden border-gray-100 hover:border-blue-200 transition-all duration-500 hover:shadow-2xl flex flex-col bg-white rounded-xl"
+                    className="group overflow-hidden border-gray-100 hover:border-blue-300 transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 flex flex-col bg-white rounded-xl"
                   >
                     <Link href={`/blog/${post.slug}`} className="block">
                       {/* Image with overlay */}
-                      <div className="aspect-[16/10] relative overflow-hidden">
+                      <div className="aspect-[16/10] relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
                         <img
                           src={post.image}
                           alt={post.title}
@@ -170,14 +170,14 @@ export default function BlogPage() {
 
                         {/* Category badge on image */}
                         <div className="absolute top-3 left-3">
-                          <Badge className="bg-white/90 backdrop-blur-sm text-gray-800 hover:bg-white shadow-sm border-0">
+                          <Badge className="bg-white/90 backdrop-blur-sm text-gray-800 hover:bg-white shadow-sm border-0 font-medium">
                             {post.category}
                           </Badge>
                         </div>
 
                         {/* Read more overlay */}
                         <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                          <span className="inline-flex items-center gap-1 text-white text-sm font-medium bg-blue-600/90 backdrop-blur-sm px-3 py-1.5 rounded-full">
+                          <span className="inline-flex items-center gap-1 text-white text-sm font-medium bg-blue-600/90 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-lg">
                             Read Review <ChevronRight className="h-3 w-3" />
                           </span>
                         </div>
@@ -186,11 +186,11 @@ export default function BlogPage() {
 
                     <CardHeader className="flex-1 px-5 pt-5 pb-2">
                       <CardTitle className="text-lg leading-tight line-clamp-2 group-hover:text-blue-700 transition-colors">
-                        <Link href={`/blog/${post.slug}`} className="hover:underline decoration-blue-300 underline-offset-2">
+                        <Link href={`/blog/${post.slug}`} className="hover:underline decoration-blue-300 underline-offset-2 decoration-2">
                           {post.title}
                         </Link>
                       </CardTitle>
-                      <CardDescription className="line-clamp-2 text-sm leading-relaxed mt-1">
+                      <CardDescription className="line-clamp-2 text-sm leading-relaxed mt-1.5">
                         {post.description}
                       </CardDescription>
                     </CardHeader>

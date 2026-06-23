@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ReadingProgress from '@/components/ReadingProgress';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, Calendar, Clock, Share2, BookOpen, ChevronRight } from 'lucide-react';
@@ -74,6 +75,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
+      <ReadingProgress />
 
       <main className="flex-1">
         <article>
@@ -355,6 +357,53 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === '10-best-alamo-rent-a-car-vehicles-budget-travelers-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-br from-sky-50 via-blue-50 to-indigo-50 rounded-2xl border-2 border-sky-300 shadow-lg relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
+                      <svg viewBox="0 0 100 100" className="w-full h-full text-sky-800">
+                        <circle cx="50" cy="35" r="20" fill="currentColor" opacity="0.3"/>
+                        <path d="M10 70 Q30 50 50 65 Q70 80 90 55" stroke="currentColor" strokeWidth="3" fill="none"/>
+                        <rect x="20" y="65" width="14" height="20" rx="2" fill="currentColor" opacity="0.6"/>
+                        <rect x="66" y="55" width="14" height="30" rx="2" fill="currentColor" opacity="0.4"/>
+                        <circle cx="27" cy="72" r="4" fill="white" opacity="0.5"/>
+                        <circle cx="73" cy="62" r="4" fill="white" opacity="0.5"/>
+                      </svg>
+                    </div>
+                    <div className="text-center space-y-4 relative z-10">
+                      <div className="inline-block mb-2">
+                        <span className="text-5xl">🚙</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Ready to Save on Your Next Road Trip?
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore Alamo's full 2026 fleet and lock in the best rates for your next adventure. With fuel-efficient vehicles, Skip the Counter online check-in, and the free Alamo Insider program — your budget-friendly journey starts here.
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600 mb-2">
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Best Rate Guarantee</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Skip the Counter Check-In</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Free Alamo Insider Program</span>
+                      </div>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 hover:from-sky-700 hover:via-blue-700 hover:to-indigo-700 text-white font-bold px-10 py-7 text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 rounded-full border-2 border-sky-400/30"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=6b14TXBVkKY6nQNPLPpWTEN1_a4iWEO2qPMb_b5AxAcyqGEtLOuKsn3KjDVSh9G4Vw3vqovvMFrBzng_c_c&new=https%3A%2F%2Fwww.alamo.com%2Fen%2Fhome.html"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          🚙 Browse Alamo Rent A Car Deals →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600 font-medium">
+                        Join Alamo Insider for free • Earn points on every rental • Best rates when you book early online
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 {params.slug === '10-best-ariat-cowboy-boots-2026' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-stone-50 via-amber-50 to-orange-50 rounded-2xl border-2 border-amber-300 shadow-lg relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-40 h-40 opacity-10">
@@ -547,20 +596,22 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   <div className="sticky top-24 space-y-6">
                     {/* Related posts */}
                     {relatedPosts.length > 0 && (
-                      <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm">
+                      <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
                         <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
-                          <BookOpen className="h-4 w-4 text-blue-600" />
+                          <span className="w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center">
+                            <BookOpen className="h-4 w-4 text-blue-600" />
+                          </span>
                           More in {post.category}
                         </h3>
                         <div className="space-y-4">
-                          {relatedPosts.map((related) => (
+                          {relatedPosts.map((related, idx) => (
                             <Link
                               key={related.slug}
                               href={`/blog/${related.slug}`}
-                              className="block group"
+                              className="block group p-2 -mx-2 rounded-lg hover:bg-gray-50 transition-colors duration-200"
                             >
                               <div className="flex gap-3">
-                                <div className="w-20 h-16 rounded-lg overflow-hidden flex-shrink-0">
+                                <div className="w-20 h-16 rounded-lg overflow-hidden flex-shrink-0 shadow-sm">
                                   <img
                                     src={related.image}
                                     alt={related.title}
@@ -568,7 +619,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                                   />
                                 </div>
                                 <div className="flex-1 min-w-0">
-                                  <h4 className="text-sm font-semibold text-gray-900 group-hover:text-blue-700 transition-colors line-clamp-2">
+                                  <h4 className="text-sm font-semibold text-gray-900 group-hover:text-blue-700 transition-colors line-clamp-2 leading-snug">
                                     {related.title}
                                   </h4>
                                   <p className="text-xs text-gray-500 mt-1">
@@ -583,32 +634,38 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                     )}
 
                     {/* Quick stats card */}
-                    <div className={`bg-gradient-to-br ${categoryGradient} rounded-2xl p-6 text-white shadow-lg`}>
-                      <h3 className="text-lg font-bold mb-3">About This Guide</h3>
-                      <ul className="space-y-2 text-sm text-white/90">
-                        <li className="flex justify-between">
-                          <span>Category</span>
-                          <span className="font-semibold">{post.category}</span>
-                        </li>
-                        <li className="flex justify-between">
-                          <span>Reading Time</span>
-                          <span className="font-semibold">{readingTime} min</span>
-                        </li>
-                        <li className="flex justify-between">
-                          <span>Published</span>
-                          <span className="font-semibold">
-                            {new Date(post.date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
-                          </span>
-                        </li>
-                        <li className="flex justify-between">
-                          <span>Word Count</span>
-                          <span className="font-semibold">{post.content.split(/\s+/).length.toLocaleString()}</span>
-                        </li>
-                      </ul>
+                    <div className={`bg-gradient-to-br ${categoryGradient} rounded-2xl p-6 text-white shadow-lg hover:shadow-2xl transition-shadow duration-300 relative overflow-hidden`}>
+                      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wOCI+PGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMyIvPjwvZz48L2c+PC9zdmc+')] opacity-40" />
+                      <div className="relative z-10">
+                        <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+                          <span className="w-2 h-2 rounded-full bg-white/50" />
+                          About This Guide
+                        </h3>
+                        <ul className="space-y-3 text-sm text-white/90">
+                          <li className="flex justify-between items-center py-1.5 border-b border-white/10">
+                            <span>Category</span>
+                            <span className="font-semibold bg-white/20 px-2 py-0.5 rounded-full text-xs">{post.category}</span>
+                          </li>
+                          <li className="flex justify-between items-center py-1.5 border-b border-white/10">
+                            <span>Reading Time</span>
+                            <span className="font-semibold">{readingTime} min</span>
+                          </li>
+                          <li className="flex justify-between items-center py-1.5 border-b border-white/10">
+                            <span>Published</span>
+                            <span className="font-semibold">
+                              {new Date(post.date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+                            </span>
+                          </li>
+                          <li className="flex justify-between items-center py-1.5">
+                            <span>Word Count</span>
+                            <span className="font-semibold">{post.content.split(/\s+/).length.toLocaleString()}</span>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
 
                     {/* Back to blog button */}
-                    <Button variant="outline" asChild className="w-full rounded-xl">
+                    <Button variant="outline" asChild className="w-full rounded-xl hover:shadow-md transition-all duration-300 border-2">
                       <Link href="/blog">
                         <ArrowLeft className="mr-2 h-4 w-4" />
                         Back to All Reviews
