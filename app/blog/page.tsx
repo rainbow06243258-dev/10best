@@ -145,9 +145,18 @@ export default function BlogPage() {
           <div className="container px-4 md:px-6">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
+                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 px-4 py-1.5 rounded-full text-sm font-medium text-indigo-600 mb-4 border border-indigo-100">
+                  <Sparkles className="h-4 w-4" />
+                  Expert-Curated Content
+                  <Sparkles className="h-4 w-4" />
+                </div>
                 <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">
                   All Reviews & Guides
                 </h2>
+                <div className="flex items-center justify-center gap-2 mb-4">
+                  <div className="h-1 w-12 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500" />
+                  <div className="h-1 w-3 rounded-full bg-gradient-to-r from-indigo-400 to-purple-400" />
+                </div>
                 <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                   Browse our complete collection of expert reviews across every category
                 </p>
@@ -157,8 +166,10 @@ export default function BlogPage() {
                 {posts.map((post, index) => (
                   <Card
                     key={post.slug}
-                    className="group overflow-hidden border-gray-100 hover:border-blue-300 transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 flex flex-col bg-white rounded-xl"
+                    className="group overflow-hidden border-gray-100 hover:border-blue-300 transition-all duration-500 hover:shadow-2xl hover:-translate-y-1.5 flex flex-col bg-white rounded-xl relative"
                   >
+                    {/* Shimmer sweep on hover */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 z-10 pointer-events-none" />
                     <Link href={`/blog/${post.slug}`} className="block">
                       {/* Image with overlay */}
                       <div className="aspect-[16/10] relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
@@ -227,8 +238,11 @@ export default function BlogPage() {
         </section>
 
         {/* Bottom CTA */}
-        <section className="w-full py-16 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
-          <div className="container px-4 md:px-6">
+        <section className="w-full py-16 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+          {/* Decorative background circles */}
+          <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-blue-100/60 to-transparent rounded-full blur-3xl" />
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-indigo-100/50 to-transparent rounded-full blur-3xl" />
+          <div className="container px-4 md:px-6 relative z-10">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-1.5 rounded-full text-sm font-medium">
                 <Star className="h-4 w-4 fill-blue-700" />
@@ -241,9 +255,9 @@ export default function BlogPage() {
                 Every review is thoroughly researched and regularly updated. We earn commissions on qualifying purchases — at no extra cost to you — which helps us keep producing quality content.
               </p>
               <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-500">
-                <span className="bg-white px-3 py-1.5 rounded-full border border-gray-200 shadow-sm">✓ Honest Reviews</span>
-                <span className="bg-white px-3 py-1.5 rounded-full border border-gray-200 shadow-sm">✓ No Sponsored Placements</span>
-                <span className="bg-white px-3 py-1.5 rounded-full border border-gray-200 shadow-sm">✓ Updated Regularly</span>
+                <span className="bg-white px-3 py-1.5 rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-shadow">✓ Honest Reviews</span>
+                <span className="bg-white px-3 py-1.5 rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-shadow">✓ No Sponsored Placements</span>
+                <span className="bg-white px-3 py-1.5 rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-shadow">✓ Updated Regularly</span>
               </div>
             </div>
           </div>

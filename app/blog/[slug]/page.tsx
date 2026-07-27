@@ -498,6 +498,53 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === '10-best-efteling-attractions-families-kids-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 rounded-2xl border-2 border-indigo-300 shadow-lg relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
+                      <svg viewBox="0 0 100 100" className="w-full h-full text-indigo-800">
+                        <path d="M50 15 L65 40 L90 45 L70 62 L75 90 L50 77 L25 90 L30 62 L10 45 L35 40 Z" fill="currentColor" opacity="0.6"/>
+                        <circle cx="50" cy="55" r="12" fill="currentColor" opacity="0.3"/>
+                        <path d="M25 55 Q35 35 50 45 Q65 55 75 45" stroke="currentColor" strokeWidth="2" fill="none" opacity="0.5"/>
+                        <circle cx="35" cy="30" r="2" fill="currentColor" opacity="0.8"/>
+                        <circle cx="65" cy="28" r="2" fill="currentColor" opacity="0.8"/>
+                        <circle cx="50" cy="20" r="1.5" fill="currentColor" opacity="0.7"/>
+                      </svg>
+                    </div>
+                    <div className="text-center space-y-4 relative z-10">
+                      <div className="inline-block mb-2">
+                        <span className="text-5xl">🏰</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Plan Your Magical Efteling Adventure
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the full Efteling experience — from enchanting fairy tale forests to world-class family coasters. Book your tickets, reserve on-site accommodation, and discover why this Dutch wonderland has captivated families for over 70 years.
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600 mb-2">
+                        <span className="bg-white/70 px-3 py-1 rounded-full">🏰 Over 40 Attractions</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">🌳 176 Acres of Woodland Magic</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">⭐ 70+ Years of Storytelling</span>
+                      </div>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white font-bold px-10 py-7 text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 rounded-full border-2 border-indigo-400/30"
+                      >
+                        <a
+                          href="https://www.efteling.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          🏰 Visit Efteling Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600 font-medium">
+                        Book online for the best rates • On-site themed hotels available • Free Efteling app for queue times
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                   </div>
 
                   {/* Article Content */}
