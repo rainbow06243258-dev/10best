@@ -545,6 +545,56 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === '10-best-shelly-smart-home-devices-automation-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-br from-indigo-50 via-blue-50 to-violet-50 rounded-2xl border-2 border-indigo-300 shadow-lg relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
+                      <svg viewBox="0 0 100 100" className="w-full h-full text-indigo-800">
+                        <rect x="15" y="20" width="70" height="60" rx="8" fill="currentColor" opacity="0.4"/>
+                        <rect x="25" y="30" width="50" height="28" rx="4" fill="currentColor" opacity="0.6"/>
+                        <circle cx="38" cy="44" r="3" fill="white" opacity="0.8"/>
+                        <circle cx="50" cy="44" r="3" fill="white" opacity="0.6"/>
+                        <circle cx="62" cy="44" r="3" fill="white" opacity="0.8"/>
+                        <path d="M20 70 L50 72 L80 68" stroke="currentColor" strokeWidth="4" fill="none" opacity="0.5" strokeLinecap="round"/>
+                        <circle cx="28" cy="76" r="5" fill="currentColor" opacity="0.3"/>
+                        <circle cx="55" cy="78" r="5" fill="currentColor" opacity="0.3"/>
+                        <circle cx="72" cy="74" r="5" fill="currentColor" opacity="0.3"/>
+                      </svg>
+                    </div>
+                    <div className="text-center space-y-4 relative z-10">
+                      <div className="inline-block mb-2">
+                        <span className="text-5xl">🏠</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Start Building Your Smart Home Today
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore Shelly's complete 2026 lineup — from Wi-Fi relays and sensors to smart plugs and thermostats. Discover why Shelly is the #1 choice for local-first, no-hub-required home automation that works even without internet.
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600 mb-2">
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Local Control — No Cloud Required</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ No Hub Needed</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">✓ Works with Alexa & Google Home</span>
+                      </div>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-indigo-600 via-blue-600 to-violet-600 hover:from-indigo-700 hover:via-blue-700 hover:to-violet-700 text-white font-bold px-10 py-7 text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 rounded-full border-2 border-indigo-400/30"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=e0f9dQt5StvSkwgpGDQ60NTFZiZgDmRlTjvf4YiopH4c9Jg49zsv7gIgdWKDJB_a280UdseLqMJKayFKhGf7ZWiGApgaKcTTtl4KTgw_c_c&new=https%3A%2F%2Fwww.shelly.com%2F"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          🏠 Visit Shelly Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600 font-medium">
+                        Free shipping on orders over $75 • 2-year warranty • 30-day money-back guarantee
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                   </div>
 
                   {/* Article Content */}
