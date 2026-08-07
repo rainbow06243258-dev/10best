@@ -10,6 +10,260 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: '10-best-farm-rio-dresses-printed-outfits-2026',
+    title: '10 Best FARM Rio Dresses & Printed Outfits to Shop in 2026',
+    description: 'From the iconic Julia Floral Maxi Dress to balloon pants, embroidered cover-ups, and the new FARM Rio x Anthropologie collaboration, discover the 10 best FARM Rio dresses and printed outfits to shop in 2026 — bold Brazilian prints, sustainable fabrics, and joy-filled design.',
+    category: 'Fashion',
+    image: 'https://images.pexels.com/photos/8732989/pexels-photo-8732989.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    date: '2026-05-15',
+    content: `Few brands radiate joy quite like FARM Rio. Founded in Rio de Janeiro in 2009, the Brazilian label has become globally celebrated for its exuberant prints, saturated color palettes, and a design philosophy best described as "wearable happiness." Each FARM Rio piece is a conversation — a botanical garden, a tropical sunset, a school of fish, or a parliament of parrots rendered in meticulous detail across flowing silhouettes that flatter and move.
+
+In 2026, FARM Rio's collections are more expansive and more sustainable than ever. The brand has deepened its commitment to responsible fashion, using certified recycled fabrics, organic cotton, and bluesign-certified dyes, while expanding its partnerships with global retailers like Anthropologie, Shopbop, and Net-a-Porter. New for 2026 is a much-anticipated FARM Rio x Anthropologie capsule featuring 3D parrot embroidery and exclusive colorways, alongside the brand's signature seasonal drops — Nautical, Coastal, and the beloved Floral Tapestry collections.
+
+Whether you're building a vacation wardrobe, searching for a statement dress for a summer wedding, or simply want to inject some Brazilian sunshine into your everyday rotation, here are the 10 best FARM Rio dresses and printed outfits to shop in 2026.
+
+## Why FARM Rio Stands Apart in 2026
+
+Before diving into individual pieces, let's understand what makes FARM Rio uniquely compelling in a crowded fashion landscape:
+
+**Prints That Tell a Story:**
+FARM Rio doesn't use prints — it commissions them. Each season's artwork begins with Brazilian illustrators who hand-draw botanical, marine, and wildlife motifs that are then engineered into fabric. A single FARM Rio dress might carry 40 distinct illustrated elements, arranged so the print flows across seams and panels without interruption. The result is wearable art that looks like nothing else on the rack.
+
+**Brazilian Heritage, Global Reach:**
+Born and still headquartered in Rio, FARM Rio draws on Brazil's tropical biodiversity, beach culture, and craft traditions. The brand's Carioca sensibility — relaxed, colorful, body-positive — is baked into every silhouette. Yet the fit and construction meet international expectations, which is why FARM Rio now appears in over 80 countries and counts Anthropologie, Shopbop, and Selfridges as stockists.
+
+**Sustainability as a 2026 Commitment:**
+FARM Rio's 2026 collections use certified recycled polyester, organic cotton, and Lenzing-branded cellulosic fibers. The brand has eliminated single-use plastic from its consumer packaging, publishes an annual impact report, and partners with reforestation nonprofits in the Atlantic Forest. In 2026, over 60% of the mainline collection is made with preferred fibers — a significant step toward the brand's goal of a fully responsible supply chain.
+
+**The Joy Factor:**
+This is the thing that's hardest to quantify and easiest to feel. FARM Rio clothes make people smile — the wearer and everyone they walk past. In a fashion moment dominated by minimalist neutrals and quiet luxury, FARM Rio's unapologetic maximalism is a counter-mood that has resonated globally. The 2026 collections lean into this harder than ever.
+
+**The FARM Rio x Anthropologie Collaboration:**
+New for 2026, FARM Rio has expanded its collaboration with Anthropologie, including a capsule of 3D parrot-embroidered pieces, exclusive colorways of signature dresses, and a coordinated accessories line. The collaboration brings FARM Rio's aesthetic to Anthropologie's audience with pieces designed specifically for the partnership.
+
+## The 10 Best FARM Rio Dresses & Printed Outfits for 2026
+
+### 1. Julia Floral Maxi Dress — The Iconic Signature Dress
+
+If there is one dress that defines FARM Rio, it is the Julia Floral Maxi Dress. A flowing, floor-skimming silhouette in the brand's signature floral print, the Julia has been reimagined in dozens of colorways since its debut and remains the piece most associated with the brand. The 2026 edition features an updated botanical print on a recycled polyester crepe, with a V-neckline, adjustable straps, and a fitted bodice that releases into a sweeping skirt.
+
+The Julia is cut to move — the skirt has enough volume to catch a breeze without overwhelming a smaller frame, and the bodice is structured enough to stay put without a bra for many wearers. The 2026 colorways include a sun-washed coral, a deep tropical green, and a limited-edition Atlantic Forest print that benefits the brand's reforestation partner. At around $248–$298, the Julia sits in the heart of the FARM Rio price range and is the piece most likely to sell out first each season.
+
+**Why it's the must-buy:** The Julia is the dress strangers stop you on the street to ask about. It's the FARM Rio piece that anchors a wardrobe, works for weddings, vacations, and dinners, and photographs beautifully. If you buy one FARM Rio dress in 2026, make it a Julia.
+
+**Key Features:**
+- Flowing maxi silhouette with fitted bodice and adjustable straps
+- Signature FARM Rio floral print on recycled polyester crepe
+- V-neckline designed to flatter and layer with delicate jewelry
+- 2026 colorways include coral, tropical green, and limited Atlantic Forest print
+- Sweep skirt with enough volume for movement without bulk
+- Available in regular and extended sizing
+
+**Best for:** Summer weddings, vacation dinners, and any occasion that calls for a show-stopping dress that still feels effortless.
+
+### 2. Nautical Printed Maxi Dress — The Coastal Statement
+
+The Nautical Printed Maxi Dress is part of FARM Rio's 2026 Nautical collection, a capsule that translates the brand's maximalist print sensibility into a marine palette. The dress features a hand-illustrated print of seahorses, coral, and sailing ships across a flowing maxi silhouette, with a square neckline and short flutter sleeves that echo the collection's coastal mood.
+
+The 2026 Nautical print is engineered so the marine motifs wrap continuously around the body — a detail that's invisible in photos and stunning in person. The fabric is a lightweight recycled crepe that packs small for travel and resists wrinkling. The silhouette is slightly more relaxed than the Julia, making it a comfortable choice for long events or warm-weather travel.
+
+**Why it's a standout:** The Nautical collection is FARM Rio's most editorial capsule of 2026 — it's the print that appears in the brand's campaign imagery and on its most visible collaborators. The seahorse print in particular has become a collector's piece, with previous seasons' versions trading at premium on resale platforms.
+
+**Key Features:**
+- Hand-illustrated marine print (seahorses, coral, sailing ships)
+- Continuous wrap-around print engineering
+- Square neckline with short flutter sleeves
+- Lightweight recycled crepe, travel-friendly and wrinkle-resistant
+- Relaxed maxi silhouette for comfort
+- Part of the 2026 Nautical capsule
+
+**Best for:** Coastal vacations, yacht-club dinners, and anyone who wants the season's most editorial FARM Rio print.
+
+### 3. Emily Floral Tapestry Midi Dress — The Refined Midi
+
+The Emily Floral Tapestry Midi Dress is FARM Rio's answer to the question: "Can a bold print also feel refined?" The answer is yes. The Emily features a tapestry-style floral print — denser and more intricate than the brand's signature florals — on a midi-length silhouette with a fitted bodice, defined waist, and a skirt that hits below the knee. The effect is a dress that reads as polished as it does joyful.
+
+The 2026 Emily introduces a new tapestry print with a richer color story — deep burgundy, forest green, and antique gold — that feels particularly suited to transitional seasons and evening events. The fabric is a structured recycled polyester that holds its shape without feeling stiff, and the defined waist is created with a self-fabric belt that blends seamlessly into the print.
+
+**Why it's the refined alternative:** Not every FARM Rio occasion calls for a sweeping maxi. The Emily is the dress for dinners, gallery openings, and events where you want the brand's print identity in a more controlled silhouette. It's also the FARM Rio dress most likely to transition from day to night with a change of shoes and jewelry.
+
+**Key Features:**
+- Tapestry-style floral print with rich burgundy, green, and gold color story
+- Midi length with fitted bodice and defined waist
+- Self-fabric belt for waist definition
+- Structured recycled polyester that holds shape
+- Refined silhouette for evening and transitional events
+- Pairs with both heels and flat sandals
+
+**Best for:** Dinner events, gallery openings, and occasions that call for FARM Rio's print identity in a polished, midi-length silhouette.
+
+### 4. Light Blue Spring Affair Maxi Dress — The Romantic Pastel
+
+The Light Blue Spring Affair Maxi Dress is FARM Rio's most romantic 2026 piece — a soft, pastel counterpoint to the brand's typically saturated palette. The dress features a delicate floral print in light blue and ivory on a flowing maxi silhouette, with a smocked bodice, tie straps, and a sweep skirt that moves with every step.
+
+The Spring Affair is built on a lightweight cotton-blend fabric with a subtle texture that catches light beautifully. The smocked bodice provides stretch and support without a bra for many wearers, and the tie straps allow the neckline to be adjusted. The 2026 edition introduces a slightly longer skirt and a more defined print scale that flatters a wider range of heights.
+
+**Why it's the romantic pick:** For brides, bridal showers, garden parties, and any occasion that calls for soft, feminine dressing, the Spring Affair is FARM Rio's most elegant offering. The pastel palette also makes it a versatile piece for spring and early summer, before the season's brighter prints take over.
+
+**Key Features:**
+- Soft pastel floral print in light blue and ivory
+- Smocked bodice with stretch and support
+- Adjustable tie straps
+- Flowing maxi skirt with updated length and print scale
+- Lightweight cotton-blend fabric with subtle texture
+- Romantic silhouette for spring and bridal occasions
+
+**Best for:** Bridal showers, garden parties, spring weddings, and any occasion that calls for soft, romantic dressing.
+
+### 5. Balloon Pants — The Signature Printed Trouser
+
+FARM Rio's Balloon Pants are the brand's signature trouser and the piece that most often converts dress-shoppers into print-shoppers. The silhouette is a high-waisted, ankle-length balloon cut — voluminous through the thigh and tapered at the ankle — that flatters a remarkable range of body types. The 2026 Balloon Pants feature an updated print lineup including the Banana Leaves, Biricutico Scarf, and a new Coast Stars print.
+
+The Balloon Pants are cut from a structured recycled poplin that holds the balloon shape without collapsing, with a comfortable elasticated waistband and side pockets. They pair as naturally with a FARM Rio printed top for a maximalist set as they do with a simple white tee or knit for a more restrained look. At $198, they're also one of the most accessible entry points into the FARM Rio aesthetic.
+
+**Why they're the wardrobe builder:** Balloon Pants are the piece that turns a FARM Rio dress customer into a FARM Rio wardrobe customer. They work across seasons, pair with everything already in your closet, and deliver the brand's print identity in a silhouette that's appropriate for far more occasions than a maxi dress.
+
+**Key Features:**
+- High-waisted, ankle-length balloon silhouette
+- Voluminous thigh with tapered ankle for flattering fit
+- Structured recycled poplin that holds shape
+- Elasticated waistband and side pockets
+- 2026 prints include Banana Leaves, Biricutico Scarf, and Coast Stars
+- Pairs with printed tops for sets or simple basics for contrast
+
+**Best for:** Everyday wear, travel, and building a FARM Rio wardrobe beyond dresses — the most versatile piece in the line.
+
+### 6. Banana Yellow Fruit Leaves Top — The Statement Top
+
+The Banana Yellow Fruit Leaves Top is FARM Rio at its most exuberant — a fitted, short-sleeve top in a bold banana-and-leaf print that instantly lifts any outfit. The 2026 version is cut from a soft recycled jersey with a touch of stretch, featuring a round neckline, short sleeves, and a slightly cropped length that pairs perfectly with high-waisted Balloon Pants or the matching Banana Leaves Maxi Skirt.
+
+The top is designed to be worn tucked or untucked, and the print is engineered so the banana motifs align across the body. The yellow colorway is the signature, but 2026 introduces a new ivory background with green leaves for a more subdued alternative. The fabric is machine-washable and resists fading, making it a practical statement piece for regular rotation.
+
+**Why it's the print entry point:** Not every FARM Rio customer wants a full maxi dress. The Banana Yellow Fruit Leaves Top delivers the brand's print identity in a compact, wearable piece that pairs with denim, trousers, or the matching skirt. It's the most accessible way to wear FARM Rio's maximalist aesthetic in everyday life.
+
+**Key Features:**
+- Bold banana-and-leaf print on recycled jersey with stretch
+- Round neckline and short sleeves
+- Slightly cropped length for high-waisted pairing
+- Print engineered for body alignment
+- Machine-washable and fade-resistant
+- New for 2026: ivory background with green leaves alternative
+
+**Best for:** Everyday wear, pairing with denim or Balloon Pants, and an accessible entry into FARM Rio's print aesthetic.
+
+### 7. Banana Leaves Maxi Skirt — The Matching Statement Bottom
+
+The Banana Leaves Maxi Skirt is the matching partner to the Banana Yellow Fruit Leaves Top — together they create a full FARM Rio printed set that's one of the season's most photographed looks. The skirt features the same banana-and-leaf print on a flowing maxi silhouette with an elasticated waistband, a slight high-low hem, and enough volume to move beautifully without overwhelming.
+
+The 2026 Banana Leaves Maxi Skirt is cut from the same recycled poplin as the top, with a lining that provides opacity without adding weight. The elasticated waist makes it comfortable for travel and warm-weather wear, and the maxi length transitions from beach to dinner with a change of top. Worn with the matching top, it's a full printed set; worn with a simple white tee, it's a statement bottom.
+
+**Why it's the set completer:** The FARM Rio printed set — matching top and skirt or top and pants — is the brand's signature styling move and a look that dominates its campaign imagery. The Banana Leaves Maxi Skirt is the piece that completes the season's most iconic set, and it doubles as a versatile standalone statement.
+
+**Key Features:**
+- Matching banana-and-leaf print on recycled poplin
+- Flowing maxi silhouette with elasticated waistband
+- Slight high-low hem for movement
+- Lined for opacity without weight
+- Pairs with matching top for a full printed set
+- Transitions from beach to dinner with a change of top
+
+**Best for:** Creating the season's signature FARM Rio printed set, and as a standalone statement bottom for warm-weather travel.
+
+### 8. Embroidered Coverup Blouse & Balloon Pants — The Beach Set
+
+FARM Rio's Embroidered Coverup Blouse and Embroidered Balloon Coverup Pants are a coordinated set designed for the beach-to-bar transition that defines Brazilian resort dressing. The blouse features intricate floral embroidery on a lightweight cotton voile, with a relaxed fit, short sleeves, and a tunic length that works as a coverup over a swimsuit or as a blouse with the matching pants.
+
+The Embroidered Balloon Coverup Pants use the same cotton voile and floral embroidery in a relaxed balloon silhouette that's cropped at the ankle. Together, the set is a breathable, beautiful beach-to-lunch outfit that's become a FARM Rio resort staple. The 2026 edition introduces new embroidery colorways — including a coral and a turquoise — alongside the signature ivory and blue.
+
+**Why it's the resort essential:** The Embroidered Coverup set is FARM Rio's most resort-ready offering — it's designed specifically for the beach-to-bar transition that's a hallmark of Brazilian dressing. The cotton voile is cool in tropical heat, the embroidery is beautiful up close, and the set works as a coordinated outfit or as individual pieces over swimwear.
+
+**Key Features:**
+- Coordinated blouse and balloon pants set on cotton voile
+- Intricate floral embroidery (new coral and turquoise colorways for 2026)
+- Blouse works as coverup or standalone
+- Relaxed balloon pants cropped at the ankle
+- Breathable and cool for tropical climates
+- Beach-to-bar transition without changing
+
+**Best for:** Resort vacations, beach-to-lunch dressing, and anyone who wants the FARM Rio aesthetic in a relaxed, warm-weather set.
+
+### 9. Ligia Floral Lace Maxi Dress — The Lace Heirloom
+
+The Ligia Floral Lace Maxi Dress is FARM Rio's most crafted 2026 piece — a maxi dress that combines the brand's signature floral print with delicate lace detailing for a look that feels both joyful and heirloom-quality. The Ligia features a fitted bodice with lace trim, a lace-paneled skirt, and a floral print that's visible through the lace for a layered, dimensional effect.
+
+The 2026 Ligia is offered in a Light Pink colorway that's particularly suited to bridal events — engagement parties, rehearsal dinners, and garden weddings. The lace is a delicate cotton-blend that's soft against the skin, and the dress is lined through the bodice and skirt for coverage. The silhouette is a fitted bodice with a defined waist and a sweep skirt that moves with lace-paneled grace.
+
+**Why it's the crafted investment:** The Ligia is FARM Rio's most detailed dress and the piece that demonstrates the brand's craft beyond print. The lace work is intricate, the construction is refined, and the dress has an heirloom quality that justifies its position at the top of the price range. It's the FARM Rio dress for the occasion that matters most.
+
+**Key Features:**
+- Floral print combined with delicate cotton-blend lace
+- Fitted bodice with lace trim and lace-paneled skirt
+- Print visible through lace for dimensional effect
+- Light Pink colorway suited to bridal events
+- Lined through bodice and skirt for coverage
+- Heirloom-quality construction and detailing
+
+**Best for:** Engagement parties, rehearsal dinners, garden weddings, and occasions that call for FARM Rio's most crafted, lace-detailed dress.
+
+### 10. FARM Rio x Anthropologie 3D Parrot Cut-Out Dress — The Collaboration Piece
+
+The FARM Rio x Anthropologie 3D Parrot Cut-Out Dress is the standout of the 2026 collaboration between the two brands — a dress that features 3D parrot embroidery with cut-out detailing, exclusive to Anthropologie. The dress combines FARM Rio's parrot motif — a brand signature — with a silhouette designed specifically for the collaboration, featuring a fitted bodice, a cut-out waist, and a midi skirt with parrot embroidery that extends off the fabric in three dimensions.
+
+The 3D Parrot Cut-Out Dress is the most limited piece on this list — it's produced in restricted quantities as part of the Anthropologie exclusive capsule and is expected to sell through quickly. The dress comes in two exclusive colorways — a tropical green and a sunset coral — and includes a coordinated parrot-embroidered accessories line. The collaboration brings FARM Rio's aesthetic to Anthropologie's audience with a piece designed to be a collector's item.
+
+**Why it's the collector's piece:** The FARM Rio x Anthropologie collaboration is the most anticipated partnership of the brand's 2026 calendar, and the 3D Parrot Cut-Out Dress is its hero piece. The 3D embroidery is a craft showcase, the cut-out silhouette is exclusive to the collaboration, and the limited production makes it a genuine collector's item. It's the FARM Rio piece to buy before it sells out.
+
+**Key Features:**
+- 3D parrot embroidery with cut-out waist detailing
+- Exclusive to Anthropologie as part of the 2026 collaboration capsule
+- Fitted bodice with cut-out waist and midi skirt
+- Two exclusive colorways: tropical green and sunset coral
+- Coordinated parrot-embroidered accessories line
+- Limited production — collector's piece expected to sell through
+
+**Best for:** Collectors of FARM Rio collaborations, statement occasions, and anyone who wants the hero piece of the 2026 Anthropologie capsule.
+
+## How to Build Your FARM Rio Wardrobe
+
+**For the Vacation Capsule:**
+Start with the Julia Floral Maxi Dress for evenings, the Embroidered Coverup Set for beach-to-lunch, and the Balloon Pants with the Banana Yellow Fruit Leaves Top for daytime exploring. Add the Nautical Printed Maxi Dress for a coastal dinner. This four-piece capsule handles a week in the tropics with zero outfit repeats.
+
+**For the Wedding and Events Season:**
+The Ligia Floral Lace Maxi Dress is your bridal-event piece, the Emily Floral Tapestry Midi Dress handles dinners and gallery openings, and the Light Blue Spring Affair Maxi Dress covers garden parties. Add the FARM Rio x Anthropologie 3D Parrot Cut-Out Dress for the occasion that needs a showstopper.
+
+**For the Everyday Print Rotation:**
+The Balloon Pants are your foundation — pair them with the Banana Yellow Fruit Leaves Top for a full set, or with a white tee for a restrained look. Add the Banana Leaves Maxi Skirt for a statement bottom that pairs with basics. This is the rotation that brings FARM Rio into everyday life without going full-maxi.
+
+**For the Collector:**
+The FARM Rio x Anthropologie 3D Parrot Cut-Out Dress is the must-have, alongside the Nautical Printed Maxi Dress (the season's editorial print) and the limited Atlantic Forest Julia. These are the pieces that define the 2026 collection and that will be most sought-after on resale.
+
+## FARM Rio FAQ: What Shoppers Need to Know
+
+**Does FARM Rio run true to size?**
+FARM Rio uses a relaxed, Brazilian-inspired fit that tends to run slightly generous, particularly in flowy silhouettes like the Julia and the Nautical. Fitted bodice styles like the Emily and the Ligia run closer to true size. The brand offers extended sizing in most mainline pieces. If you're between sizes and prefer a more fitted look, size down; for the intended relaxed FARM Rio look, stay with your usual size.
+
+**What's the difference between FARM Rio's mainline and the Anthropologie collaboration?**
+The mainline collection is available on FARM Rio's own site and through global stockists. The Anthropologie collaboration is an exclusive capsule designed specifically for the partnership, with pieces and colorways not available elsewhere. The 2026 capsule includes the 3D Parrot Cut-Out Dress and coordinated accessories.
+
+**How does FARM Rio's sustainability commitment work in 2026?**
+The 2026 collections use certified recycled polyester, organic cotton, and Lenzing cellulosic fibers. Over 60% of the mainline is made with preferred fibers. Consumer packaging is plastic-free, and the brand partners with reforestation nonprofits in the Atlantic Forest, with certain prints (like the limited Atlantic Forest Julia) directly funding tree planting.
+
+**How should I care for FARM Rio prints?**
+Most FARM Rio pieces are machine-washable on cold, gentle cycle. Hang to dry to preserve print vibrancy and fabric integrity. Avoid bleach and fabric softeners, which can dull prints. Lace pieces like the Ligia should be hand-washed or dry-cleaned. Always check the care label — FARM Rio's recycled fabrics are durable but benefit from gentle care.
+
+**Where is FARM Rio made?**
+FARM Rio is designed in Rio de Janeiro and produced in Brazil and Portugal, in manufacturing partners that meet the brand's labor and environmental standards. The brand maintains its design headquarters in Rio and its atelier production in Brazil, which supports local textile craftsmanship.
+
+**Are FARM Rio pieces worth the investment?**
+FARM Rio sits in the contemporary price range ($170–$360 for most pieces), and the value proposition is the print. Each piece is a wearable artwork that's unlikely to be duplicated in your existing wardrobe, and the prints are season-specific — once a print sells through, it's typically gone. The construction and fabric quality meet contemporary standards, and the pieces hold their value well on resale, particularly limited prints and collaborations.
+
+## Conclusion
+
+FARM Rio occupies a unique position in 2026: a brand that makes clothes which make people happy, built on Brazilian craft, sustainable materials, and a print identity that's instantly recognizable. The Julia Floral Maxi Dress remains the icon, but the 2026 collection is deeper and more versatile than ever — from the refined Emily Tapestry Midi to the crafted Ligia Lace and the collector's-piece Anthropologie collaboration.
+
+What unites every piece on this list is joy. In a fashion moment that often defaults to restraint, FARM Rio's prints are a declaration — that color is a right, that florals can be fierce, and that getting dressed should be fun. That's a rare and valuable thing, and it's why FARM Rio continues to grow its global community of devotees. Whether you start with a Julia or a pair of Balloon Pants, 2026 is a very good year to start.`
+  },
+  {
     slug: '10-best-north-sails-sailing-gear-apparel-2026',
     title: '10 Best North Sails Sailing Gear & Apparel to Buy in 2026',
     description: 'From the iconic Sailor Jacket to GORE-TEX Pro foul weather gear and UPF quick-dry deckwear, discover the 10 best North Sails sailing gear and apparel pieces that blend technical performance with timeless sustainable style in 2026.',

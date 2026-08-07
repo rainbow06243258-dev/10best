@@ -546,6 +546,53 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 )}
 
+                {params.slug === '10-best-farm-rio-dresses-printed-outfits-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-br from-pink-50 via-rose-50 to-orange-50 rounded-2xl border-2 border-pink-300 shadow-lg relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
+                      <svg viewBox="0 0 100 100" className="w-full h-full text-pink-700">
+                        <circle cx="50" cy="35" r="20" fill="currentColor" opacity="0.3"/>
+                        <circle cx="35" cy="50" r="15" fill="currentColor" opacity="0.4"/>
+                        <circle cx="65" cy="50" r="15" fill="currentColor" opacity="0.4"/>
+                        <circle cx="50" cy="65" r="18" fill="currentColor" opacity="0.3"/>
+                        <circle cx="50" cy="35" r="8" fill="white" opacity="0.5"/>
+                        <circle cx="50" cy="38" r="4" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    <div className="text-center space-y-4 relative z-10">
+                      <div className="inline-block mb-2">
+                        <span className="text-5xl">🌸</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Shop Wearable Happiness from FARM Rio
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the full FARM Rio 2026 collection — the iconic Julia Floral Maxi Dress, signature Balloon Pants, embroidered cover-up sets, and the exclusive FARM Rio x Anthropologie 3D Parrot capsule. Brazilian prints, sustainable fabrics, and joy in every piece.
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600 mb-2">
+                        <span className="bg-white/70 px-3 py-1 rounded-full">🌸 Brazilian Heritage Prints</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">♻️ Recycled & Organic Fabrics</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">🦜 Anthropologie Collaboration</span>
+                      </div>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-pink-600 via-rose-500 to-orange-500 hover:from-pink-700 hover:via-rose-600 hover:to-orange-600 text-white font-bold px-10 py-7 text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 rounded-full border-2 border-pink-400/30"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2017F_bXwMM2wR8Yfb4OT_aIiE37INGhy3DgEV2b0fHXjgSfx4XtqAM11P3D_aI6WEln8PMj59MYzwnvBubQqO9wAxMWxlYZ0idsHNaHQ_c_c&new=https%3A%2F%2Fwww.farmrio.com%2F"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          🌸 Visit FARM Rio Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600 font-medium">
+                        Shop new 2026 arrivals • Sustainable printed apparel & dresses • Wearable happiness since 2009
+                      </p>
+                    </div>
+                  </div>
+                )}
+
                 {params.slug === '10-best-north-sails-sailing-gear-apparel-2026' && (
                   <div className="mb-8 p-8 bg-gradient-to-br from-blue-50 via-cyan-50 to-sky-50 rounded-2xl border-2 border-blue-300 shadow-lg relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
