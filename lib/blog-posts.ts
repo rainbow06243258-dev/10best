@@ -10,6 +10,267 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: '10-best-north-sails-sailing-gear-apparel-2026',
+    title: '10 Best North Sails Sailing Gear & Apparel to Buy in 2026',
+    description: 'From the iconic Sailor Jacket to GORE-TEX Pro foul weather gear and UPF quick-dry deckwear, discover the 10 best North Sails sailing gear and apparel pieces that blend technical performance with timeless sustainable style in 2026.',
+    category: 'Sailing',
+    image: 'https://images.pexels.com/photos/38491184/pexels-photo-38491184.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    date: '2026-05-20',
+    content: `Few brands carry the maritime authority of North Sails. Born in 1956 from a single sail loft in San Diego, the company has grown into the worldwide leader in sailmaking, powering more America's Cup, Volvo Ocean Race, and Olympic campaigns than any competitor. But in 2026, North Sails is equally celebrated for something unexpected: a clothing line that brings the same engineering rigor and ocean-tested performance to what you wear on deck — and off it.
+
+The 2026 North Sails collection spans two worlds. The Performance line is built for serious sailors who demand GORE-TEX Pro waterproofing, articulated cuts, and gear that survives Southern Ocean spray. The Apparel line translates that heritage into sustainable, everyday clothing — recycled fabrics, organic cotton, and the unmistakable North Sails aesthetic that has made the Sailor Jacket a modern classic. New for 2026, North Sails has also unveiled a landmark apparel partnership with Ferrari HyperSail, making it the exclusive supplier of technical sailing apparel for the team.
+
+Whether you're equipping for a transatlantic passage, a weekend regatta, or simply want to carry a piece of sailing heritage into your everyday wardrobe, here are the 10 best North Sails sailing gear and apparel pieces to buy in 2026.
+
+## Why North Sails Gear Stands Apart in 2026
+
+Before diving into individual products, let's understand what makes North Sails gear uniquely compelling:
+
+**Sailmaking DNA, Applied to Clothing:**
+North Sails doesn't approach apparel as a fashion brand — it approaches it as an engineering problem. The same minds that design 3Di sails (the carbon-fiber sails that dominate offshore racing) obsess over seam tape placement, waterproof ratings, and fabric weight. The result is gear that performs the way a sail performs: predictably, durably, and under load.
+
+**GORE-TEX Pro Construction:**
+The Performance foul weather gear is built in GORE-TEX Pro, the gold standard for extreme-weather waterproofing. North Sails uses seam-taped construction, articulated patterning, and marine-grade hardware (corrosion-resistant zips and fasteners) throughout. These are garments engineered for the deck, not adapted from a hiking collection.
+
+**Sustainability as a Core Commitment:**
+North Sails Apparel is made with recycled fabrics, organic cotton, and Bluesign-certified materials. The brand has committed to eliminating single-use plastics from its packaging and to increasing the recycled content of every collection. In 2026, sustainability isn't a marketing afterthought — it's a design constraint.
+
+**The Heritage Aesthetic:**
+The Apparel line draws on North Sails' decades of racing heritage. The Sailor Jacket, the vintage-wash sweatshirts, and the heritage-inspired Newport collection all carry the visual language of classic yachting — clean lines, marine colorways, and a restrained logo treatment that signals authenticity without shouting.
+
+**The Ferrari HyperSail Partnership:**
+New for Fall-Winter 2026, North Sails is the exclusive supplier of technical sailing apparel for the Ferrari HyperSail America's Cup team, and the official licensing partner for the replica collection. This collaboration brings Formula 1-grade material innovation into sailing gear.
+
+## The 10 Best North Sails Sailing Gear & Apparel Pieces for 2026
+
+### 1. The Sailor Jacket — North Sails' Iconic Signature Piece
+
+If there is one piece that defines the North Sails Apparel line, it is the Sailor Jacket. Originally inspired by the deck jackets worn by North Sails sailmakers, it has evolved into a modern icon — a piece equally at home on a harbor promenade or a city street. The 2026 edition refines the silhouette with a tailored-but-relaxed fit, a water-repellent recycled outer shell, and the signature North Sails embroidered logo on the chest.
+
+The Sailor Jacket is constructed from a two-layer recycled fabric with a PFC-free durable water repellent (DWR) finish. It's wind-resistant, lightly insulated, and cut to layer comfortably over a fleece or knit. The 2026 collection introduces new colorways — including a deep ocean navy, a sun-bleached sand, and a limited Côte d'Azur blue — alongside the classic black and white. Priced around $362–$518 depending on the edition, it sits at the premium end of the Apparel line, but the build quality and timeless design make it a piece you'll wear for a decade.
+
+**Why it's a must-buy:** The Sailor Jacket is the single most recognizable North Sails garment. It carries the brand's heritage without being costume-y, performs in light weather, and pairs with everything from chinos to sailing shorts. If you buy one piece of North Sails apparel, make it this one.
+
+**Key Features:**
+- Two-layer recycled shell with PFC-free DWR finish
+- Wind-resistant and lightly insulated for transitional weather
+- Signature North Sails embroidered chest logo
+- Tailored-relaxed fit designed to layer
+- Available in classic and limited-edition colorways
+- Unisex sizing across the collection
+
+**Best for:** Everyday wear, harbor-to-city versatility, and anyone who wants the defining piece of the North Sails Apparel line.
+
+### 2. Platinum GORE-TEX Pro Offshore Jacket — The Ultimate Foul Weather Gear
+
+When the weather turns serious, the Platinum GORE-TEX Pro Offshore Jacket is what you want on your back. Part of North Sails' Performance line, this is professional-grade foul weather gear built for offshore racing and long-distance cruising. The 3-layer GORE-TEX Pro construction is fully seam-taped, delivering a 28,000mm waterproof rating and 22,000g/m²/24h breathability — meaning it keeps driving rain and spray out while letting perspiration escape during high-exertion sail changes.
+
+The cut is articulated for sailing: a slightly longer back for coverage when bending over the rail, a high collar with a hidden hood stowed inside, and articulated sleeves that don't ride up when you reach for a winch. The 2026 version introduces a refined pocket layout with a large front cargo pocket, two handwarmer pockets, and an internal security pocket. Marine-grade YKK AquaGuard zips throughout resist saltwater corrosion.
+
+**Why professionals trust it:** The Platinum line is what North Sails outfits its own sailmakers and race support teams in. It's the gear you'll see on Volvo Ocean Race support boats and at regatta weather marks. The GORE-TEX Pro membrane is the most breathable waterproof technology available, and North Sails' patterning is refined over decades of on-water testing.
+
+**Key Features:**
+- 3-layer GORE-TEX Pro shell, fully seam-taped
+- 28,000mm waterproof / 22,000g/m²/24h breathability
+- Articulated sailing cut with extended back coverage
+- Stowable high-visibility hood in collar
+- YKK AquaGuard marine-grade zips
+- Large cargo pocket, handwarmer pockets, internal security pocket
+- Reflective detailing for low-light visibility
+- Available in offshore orange, ocean black, and navy
+
+**Best for:** Offshore racing, blue-water cruising, and any sailor who needs gear that performs in the worst conditions the ocean can deliver.
+
+### 3. Performance Softshell Jacket — The Versatile Mid-Layer
+
+The Performance Softshell Jacket is the piece most sailors reach for on a daily basis. It's not a full foul weather jacket, nor a lightweight windbreaker — it's the wind-resistant, water-resistant, stretch mid-layer that handles 80% of on-water conditions. Built from a 4-way stretch softshell with a bonded fleece backer, it moves with you during sail handling and sheds light spray and drizzle.
+
+The 2026 softshell features an updated DWR treatment that maintains water repellency through more wash cycles, and a refined collar that sits comfortably against the neck under a foul weather hood. It's warm enough for a cool morning sail, breathable enough for active trimming, and clean enough to wear into the yacht club afterward. The articulated sleeves and gusseted underarms allow full reach without the jacket pulling at the hem.
+
+**Why it's the everyday workhorse:** Most sailing happens in conditions that don't require full foul weather gear — cool, breezy, with the occasional shower. The softshell is the perfect single piece for those days. It layers under the Platinum jacket for cold offshore passages and works alone for inshore racing and day sailing.
+
+**Key Features:**
+- 4-way stretch softshell with bonded fleece backer
+- Wind-resistant and water-repellent (PFC-free DWR)
+- Articulated sleeves with gusseted underarms
+- Two zippered hand pockets and one chest pocket
+- Adjustable hem drawcord
+- Available in navy, black, and ocean grey
+- Machine washable without losing DWR performance
+
+**Best for:** Day sailing, inshore racing, and as a mid-layer under offshore foul weather gear — the most versatile jacket in the line.
+
+### 4. Sailing Gilet (Quilted Vest) — Core Warmth Without Sleeve Restriction
+
+The Sailing Gilet is a quilted insulating vest that delivers core warmth while leaving the arms completely free — a combination sailors prize for active trimming and sheet handling. The 2026 gilet uses a recycled polyfill insulation that's surprisingly warm for its weight, quilted in a refined horizontal pattern that looks as good off the water as on it.
+
+The outer shell is wind-resistant and lightly water-repellent, making the gilet a perfect layering piece over a polo or technical tee on cool mornings, or under a shell jacket in colder conditions. The 2026 edition introduces a more tailored fit and new colorways that coordinate with the Sailor Jacket collection. Two hand pockets and an internal chest pocket handle essentials.
+
+**Why it's a layering essential:** When your arms are the difference between a clean tack and a fouled sheet, you don't want sleeve bulk. The gilet keeps your core warm — where you lose heat fastest — while leaving your arms unrestricted. It's also the piece most likely to migrate from the boat to everyday life, pairing effortlessly with a knit or long-sleeve tee.
+
+**Key Features:**
+- Recycled polyfill insulation quilted in a horizontal pattern
+- Wind-resistant, lightly water-repellent shell
+- Sleeveless design for unrestricted arm movement
+- Two hand pockets and internal chest pocket
+- Tailored fit that layers under shell jackets
+- Coordinates with the Sailor Jacket colorways
+
+**Best for:** Active sailing where arm mobility matters, cool morning passages, and transitional layering on and off the water.
+
+### 5. Fast Dry & UV Protection Polo Shirt — Engineered for Sun and Spray
+
+The Fast Dry & UV Protection Polo is built for long days on the water where sun and spray are constant. Unlike a traditional cotton polo, this piece uses a technical recycled polyester fabric with a UPF 50+ rating and a quick-dry treatment that sheds water in minutes, not hours. The fabric has a soft hand and a subtle stretch, so it moves with you rather than clinging.
+
+The 2026 collection expands the color range significantly — from classic navy and white to sun-bleached coral, ocean teal, and a limited-edition regatta stripe. The collar is structured enough to protect the neck from sun but relaxed enough to look at home in a casual setting. North Sails' embroidered logo sits on the chest and sleeve, a quiet mark of authenticity.
+
+**Why it beats a cotton polo on the water:** A cotton polo soaked in spray stays wet and heavy all day, loses its shape, and offers zero sun protection. The Fast Dry Polo dries during your lunch break, protects your skin from UV, and looks crisp at the evening prize giving. It's the piece you'll pack three of for any warm-water sailing trip.
+
+**Key Features:**
+- UPF 50+ sun protection rating
+- Quick-dry recycled polyester fabric
+- Four-way stretch for full mobility
+- Structured collar with sun-protective coverage
+- Embroidered North Sails chest and sleeve logos
+- Wide color range including limited-edition regatta stripes
+- Machine washable, retains shape and color
+
+**Best for:** Warm-water sailing, summer regattas, and any day where sun and spray are part of the forecast.
+
+### 6. Sailing Shorts & Trousers — Deck-Ready Bottoms
+
+North Sails' Sailing Shorts and Trousers are engineered for the deck in a way that regular shorts and pants simply are not. The fabric is a durable recycled nylon with a DWR finish that sheds spray, a four-way stretch for climbing over lifelines and crouching at the mast, and a gusseted crotch that eliminates binding during active movement.
+
+The 2026 shorts feature a refined pocket layout: two hand pockets, a secure zippered thigh pocket for a phone or knife, and a reinforced seat panel that adds durability where you sit on non-skid. The trousers extend the same design with a full-length leg, articulated knees, and a hem drawcord that cinches over deck shoes to prevent spray from running up the leg. Both pieces come in a clean marine palette that transitions from boat to shore.
+
+**Why they're purpose-built for sailing:** Regular shorts and pants lack the reinforcement, stretch, and water-shedding finish that sailing demands. The reinforced seat survives non-skid abrasion, the thigh pocket keeps essentials secure during a tack, and the stretch fabric lets you move without restriction. They're also cut to sit comfortably under a harness and over a spray top.
+
+**Key Features:**
+- Recycled nylon with PFC-free DWR finish
+- Four-way stretch for full mobility
+- Reinforced seat panel for non-skid durability
+- Secure zippered thigh pocket
+- Articulated knees (trousers) and gusseted crotch
+- Hem drawcord on trousers to seal out spray
+- Available in shorts and full-length trouser versions
+
+**Best for:** Active sailing, deck work, and warm-weather cruising where durability and mobility matter as much as style.
+
+### 7. Sailing Fleece — The Cold-Weather Foundation Layer
+
+The Sailing Fleece is the insulating foundation of any serious sailing layering system. North Sails' 2026 fleece uses a recycled polyester fleece with a gridded interior that traps warmth efficiently while wicking moisture away from the skin. It's designed to be worn directly over a base layer or under a shell, and its low-profile construction means it layers cleanly without bulk.
+
+The 2026 edition features flatlock seams that eliminate chafing under a harness or pack, a high collar that seals out wind, and a refined outer face that looks polished enough to wear as a standalone piece in the clubhouse. New colorways coordinate with the Platinum and softshell collections, so your layering system looks intentional rather than mismatched.
+
+**Why it's the foundation of a layering system:** In cold conditions, your warmth comes from layers, not from a single thick jacket. The fleece sits between your base layer and your shell, trapping warm air while letting moisture escape. North Sails' gridded fleece is warmer for its weight than traditional fleece, and it compresses small enough to live in a kit bag without taking over.
+
+**Key Features:**
+- Recycled polyester gridded fleece for efficient warmth
+- Moisture-wicking and quick-drying
+- Flatlock seams to prevent chafing under harness or pack
+- High collar for wind protection
+- Low-profile design for clean layering under shells
+- Coordinates with Platinum and softshell colorways
+
+**Best for:** Cold-weather sailing as a mid-layer, shoulder-season wear as an outer piece, and any layering system for offshore passages.
+
+### 8. Windbreaker Jacket — Packable Emergency Shell
+
+The Windbreaker Jacket is the lightest, most packable shell in the North Sails line — the piece you stuff into a kit bag and forget about until you need it. Weighing barely more than a sailing glove, it cuts wind, sheds light rain, and stuffs into its own pocket to become a bundle smaller than a water bottle.
+
+The 2026 windbreaker uses a recycled ripstop nylon with a DWR finish and a fully taped seam construction that's rare at this weight and price point. It features a minimal pocket layout (one chest pocket that doubles as the stuff sack), an adjustable hem, and a stowable hood. The cut is relaxed enough to layer over a fleece but clean enough to wear over a tee on a blustery evening.
+
+**Why it's the piece you always carry:** Conditions on the water change fast. The windbreaker is the insurance policy that lives in your bag and deploys in seconds. It's not a substitute for foul weather gear in a gale, but it's the difference between comfortable and miserable in a sudden squall or a cool evening reach home.
+
+**Key Features:**
+- Recycled ripstop nylon with DWR finish
+- Fully taped seams (rare at this weight)
+- Stuffs into its own chest pocket
+- Stowable hood and adjustable hem
+- Weighs next to nothing, packs to the size of a water bottle
+- Available in bright regatta colors for visibility
+
+**Best for:** Day sails, kit-bag insurance, and any situation where you need wind and light-rain protection that's always with you.
+
+### 9. Sailing Backpack & Dry Bag — Gear That Protects Your Gear
+
+North Sails' Sailing Backpack and Dry Bag collection is engineered to protect the rest of your gear from the marine environment. The backpack features a roll-top closure with a waterproof welded seam construction, a padded laptop sleeve (for the commute to the marina), and a harness-compatible back panel that rides comfortably under sailing gear.
+
+The 2026 dry bags come in a range of sizes — from a 5L deck bag for phones and wallets to a 60L passage bag for offshore kit. All use a heavy-duty recycled tarpaulin construction with welded seams and a roll-and-buckle closure that keeps water out even when submerged. The backpack adds external lash points for clipping to a boat, and a high-visibility interior lining so you can find gear in a dark cabin.
+
+**Why they're essential:** Sailing destroys unprotected gear. Salt spray, rain, and the occasional dunking will kill a phone, a laptop, or a change of clothes in minutes. North Sails' dry bags and backpack are the protective layer between your electronics and the ocean — and they're built to the same standard as the sails themselves.
+
+**Key Features:**
+- Waterproof welded-seam construction
+- Roll-top closure with buckle (dry bag) and roll-top with laptop sleeve (backpack)
+- Recycled tarpaulin material
+- Padded laptop sleeve in backpack
+- High-visibility interior lining
+- External lash points for boat attachment
+- Range of sizes from 5L deck bag to 60L passage bag
+
+**Best for:** Protecting electronics and dry clothes on the water, commuting to the marina, and organizing offshore kit.
+
+### 10. North Sails Caps & Hats — Heritage Headwear
+
+No sailing kit is complete without a proper hat, and North Sails' caps and hats are the finishing touch that ties a kit together. The 2026 collection ranges from the classic 6-panel sailing cap (with a pre-curved brim, embroidered logo, and an adjustable strap) to a wide-brim sun hat with a UPF 50+ rating and a chin strap that keeps it on in a blow.
+
+The caps are built from organic cotton and recycled polyester, with a sweatband that manages perspiration on hot days. The sun hat adds a floatable foam brim insert (so it doesn't sink if it goes overboard) and a mesh crown panel for ventilation. New for 2026 is a limited-edition Cowes Week 2026 cap, commemorating North Sails' title partnership with the 200th edition of the iconic regatta.
+
+**Why they finish the kit:** Sun and glare are constants on the water, and a proper hat protects your face, eyes, and neck through long days of racing or cruising. North Sails' hats also carry the brand's heritage in a way that's quietly recognizable — the embroidered logo is a signal to anyone who knows sailing.
+
+**Key Features:**
+- 6-panel cap with pre-curved brim and adjustable strap
+- Wide-brim sun hat with UPF 50+ and chin strap
+- Floatable foam brim insert on sun hat
+- Organic cotton and recycled polyester construction
+- Sweatband for moisture management
+- Limited-edition Cowes Week 2026 cap available
+- Embroidered North Sails logo
+
+**Best for:** Sun and glare protection on the water, and a heritage finishing touch to any sailing kit.
+
+## How to Build Your North Sails Kit
+
+**For the Offshore Racer:**
+Build around the Platinum GORE-TEX Pro Offshore Jacket and matching trousers. Layer a Sailing Fleece and a Fast Dry Polo beneath, and carry a Windbreaker as a backup. Protect your electronics with a 60L dry bag. This system handles anything from a Fastnet Race to a transatlantic delivery.
+
+**For the Weekend Cruiser:**
+The Performance Softshell Jacket is your foundation, layered over a Sailing Fleece and a Fast Dry Polo. Add Sailing Shorts for warm days and Trousers for cool ones. A Sailing Gilet extends your season into spring and autumn. A 30L dry bag keeps spare layers and phones dry.
+
+**For the Harbor-to-City Lifestyle:**
+The Sailor Jacket is the centerpiece. Pair it with a Sailing Gilet, a Fast Dry Polo, and Sailing Trousers for a look that works from the boat to dinner. A North Sails cap finishes the kit. This is where the Apparel line shines — heritage design that doesn't look out of place anywhere.
+
+**For the Warm-Water Sailor:**
+Load up on Fast Dry & UV Protection Polos and Sailing Shorts. Add a Windbreaker for squalls, a cap for sun, and a 5L dry bag for the phone and wallet. This is the kit for Caribbean charters, Mediterranean cruises, and summer club racing.
+
+## North Sails FAQ: What Sailors and Shoppers Need to Know
+
+**Is North Sails apparel true to size?**
+North Sails apparel uses a European fit that runs slightly trimmer than typical American sizing. If you're between sizes or plan to layer heavily, size up. The Sailor Jacket is cut to layer, so your normal size usually works with a fleece beneath. The Performance line runs true to size for active layering.
+
+**What's the difference between the Apparel and Performance lines?**
+The Apparel line is designed for lifestyle and light on-water use — the Sailor Jacket, gilets, polos, and everyday pieces. The Performance line is built for serious sailing conditions, using GORE-TEX Pro, articulated cuts, and marine-grade hardware. Many sailors own pieces from both.
+
+**How does North Sails' sustainability commitment work in practice?**
+The 2026 collection uses recycled fabrics (polyester and nylon), organic cotton, and PFC-free DWR treatments. Packaging is plastic-free where possible, and the brand publishes an annual sustainability report. The goal is increasing recycled content across every collection each year.
+
+**Can I machine wash North Sails foul weather gear?**
+Yes, but follow the care label. GORE-TEX Pro gear benefits from occasional washing (it restores the DWR and breathability) — use a technical wash like Nikwax Tech Wash, avoid fabric softeners, and reapply DWR as needed. Tumble dry on low or iron on a cool setting to reactivate the DWR. Never dry-clean GORE-TEX.
+
+**What's the Ferrari HyperSail collaboration?**
+For Fall-Winter 2026, North Sails is the exclusive supplier of technical sailing apparel for the Ferrari HyperSail America's Cup team, and the licensing partner for the replica collection. It brings Formula 1-grade material innovation into sailing gear and is available as a limited collection.
+
+**Where is North Sails apparel made?**
+North Sails apparel is designed in Hamburg, Germany, and produced in carefully selected manufacturing partners across Europe and Asia, all of which meet the brand's sustainability and labor standards. The Performance line is made with particular attention to seam construction and quality control.
+
+## Conclusion
+
+North Sails occupies a rare position in 2026: a brand with deep technical credibility on the water and a genuine lifestyle aesthetic off it. The Platinum GORE-TEX Pro line is what offshore professionals trust in the worst conditions, while the Sailor Jacket and Apparel collection carry that same heritage into everyday life with sustainable materials and timeless design.
+
+The 2026 collection is the brand's strongest yet — refined classics, new Ferrari HyperSail innovation, and a sustainability commitment that's woven into every fabric choice. Whether you're racing offshore, cruising the coast, or simply want to carry a piece of sailing heritage with you, North Sails delivers gear that performs as well as it looks. That's a rare combination, and it's why North Sails remains the worldwide leader — on the water and off.`
+  },
+  {
     slug: '10-best-shelly-smart-home-devices-automation-2026',
     title: '10 Best Shelly Smart Home Devices for Automation in 2026',
     description: 'Transform your home into an intelligent automation hub with the best Shelly smart home devices of 2026. From Wi-Fi relays and sensors to smart plugs and thermostats — discover the top Shelly products for effortless, reliable, and affordable home automation.',

@@ -50,6 +50,7 @@ function getCategoryColor(category: string): string {
     'Health & Beauty': 'from-amber-600 to-rose-500',
     'Smart Home': 'from-indigo-600 to-blue-500',
     'Lifestyle': 'from-orange-600 to-red-500',
+    'Sailing': 'from-blue-700 to-cyan-600',
   };
   return colors[category] || 'from-blue-600 to-indigo-500';
 }
@@ -540,6 +541,53 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                       </Button>
                       <p className="text-sm text-gray-600 font-medium">
                         Book online for the best rates • On-site themed hotels available • Free Efteling app for queue times
+                      </p>
+                    </div>
+                  </div>
+                )}
+
+                {params.slug === '10-best-north-sails-sailing-gear-apparel-2026' && (
+                  <div className="mb-8 p-8 bg-gradient-to-br from-blue-50 via-cyan-50 to-sky-50 rounded-2xl border-2 border-blue-300 shadow-lg relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
+                      <svg viewBox="0 0 100 100" className="w-full h-full text-blue-800">
+                        <path d="M50 10 L50 80" stroke="currentColor" strokeWidth="2" fill="none"/>
+                        <path d="M50 15 L80 35 L50 45 Z" fill="currentColor" opacity="0.6"/>
+                        <path d="M50 15 L20 35 L50 45 Z" fill="currentColor" opacity="0.4"/>
+                        <path d="M15 80 L85 80" stroke="currentColor" strokeWidth="2" fill="none"/>
+                        <path d="M30 80 Q35 70 40 80" stroke="currentColor" strokeWidth="1.5" fill="none" opacity="0.5"/>
+                        <path d="M55 80 Q60 72 65 80" stroke="currentColor" strokeWidth="1.5" fill="none" opacity="0.5"/>
+                      </svg>
+                    </div>
+                    <div className="text-center space-y-4 relative z-10">
+                      <div className="inline-block mb-2">
+                        <span className="text-5xl">⛵</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900">
+                        Gear Up with the Worldwide Leader in Sailmaking
+                      </h3>
+                      <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+                        Explore the full North Sails 2026 collection — from the iconic Sailor Jacket and sustainable everyday apparel to GORE-TEX Pro offshore foul weather gear and the new Ferrari HyperSail collaboration. 70 years of sailmaking heritage in every piece.
+                      </p>
+                      <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600 mb-2">
+                        <span className="bg-white/70 px-3 py-1 rounded-full">⛵ Worldwide Leader in Sailmaking</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">🌱 Recycled & Organic Materials</span>
+                        <span className="bg-white/70 px-3 py-1 rounded-full">🇮🇹 Ferrari HyperSail Collaboration</span>
+                      </div>
+                      <Button
+                        asChild
+                        size="lg"
+                        className="bg-gradient-to-r from-blue-700 via-cyan-600 to-sky-600 hover:from-blue-800 hover:via-cyan-700 hover:to-sky-700 text-white font-bold px-10 py-7 text-lg shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 rounded-full border-2 border-blue-400/30"
+                      >
+                        <a
+                          href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=52b0HHMRkCWEjqLYUYijcntvsiAPlGbxZEs0fV8G6fLJxp1u_aheewQLQX7Mf3SvdmUUg_aWr2NAS5XMFbgrbZ0yopPiAWY9dV55xqnQ_c_c&new=https%3A%2F%2Fwww.northsails.com%2F"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          ⛵ Visit North Sails Official Website →
+                        </a>
+                      </Button>
+                      <p className="text-sm text-gray-600 font-medium">
+                        Shop new 2026 arrivals • Sustainable apparel & technical sailing gear • Heritage since 1956
                       </p>
                     </div>
                   </div>
