@@ -69,7 +69,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   }
 
   const readingTime = getReadingTime(post.content);
-  const categoryGradient = params.slug === '10-best-fenty-beauty-products-to-try-2026'
+  const categoryGradient = params.slug.includes('fenty-beauty')
     ? 'from-rose-700 via-fuchsia-600 to-amber-500'
     : getCategoryColor(post.category);
   const relatedPosts = getAllBlogPosts()
@@ -775,6 +775,42 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                           );
                         }
                         return null;
+                      } else if (paragraph.startsWith('|')) {
+                        const rows = paragraph
+                          .split('\n')
+                          .map(row => row.split('|').slice(1, -1).map(cell => cell.trim()))
+                          .filter(row => row.length > 0);
+                        const headers = rows[0];
+                        const bodyRows = rows
+                          .slice(1)
+                          .filter(row => !row.every(cell => /^:?-{3,}:?$/.test(cell)));
+
+                        return (
+                          <div key={index} className="my-8 overflow-x-auto rounded-2xl border border-rose-100 bg-white shadow-lg shadow-rose-100/40">
+                            <table className="w-full min-w-[720px] border-collapse text-left text-sm">
+                              <thead className={`bg-gradient-to-r ${categoryGradient} text-white`}>
+                                <tr>
+                                  {headers.map((header, headerIndex) => (
+                                    <th key={headerIndex} className="px-5 py-4 font-bold">
+                                      {header}
+                                    </th>
+                                  ))}
+                                </tr>
+                              </thead>
+                              <tbody className="divide-y divide-gray-100">
+                                {bodyRows.map((row, rowIndex) => (
+                                  <tr key={rowIndex} className="transition-colors even:bg-rose-50/30 hover:bg-amber-50/60">
+                                    {row.map((cell, cellIndex) => (
+                                      <td key={cellIndex} className={`px-5 py-4 text-gray-700 ${cellIndex === 0 ? 'font-bold text-gray-950' : ''}`}>
+                                        {cell}
+                                      </td>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        );
                       } else if (paragraph.startsWith('**') && paragraph.endsWith('**') && !paragraph.includes('\n')) {
                         return (
                           <p key={index} className="font-semibold text-gray-800 mb-4 text-lg">
@@ -836,7 +872,11 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                           return (
                             <div key={index} className="my-6">
                               <Button asChild className={`bg-gradient-to-r ${categoryGradient} hover:opacity-90 shadow-lg`}>
-                                <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+                                <a
+                                  href={linkUrl}
+                                  target="_blank"
+                                  rel={linkUrl.includes('linkhaitao.com') ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
+                                >
                                   {linkText}
                                 </a>
                               </Button>
