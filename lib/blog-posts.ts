@@ -525,6 +525,165 @@ North Sails occupies a rare position in 2026: a brand with deep technical credib
 The 2026 collection is the brand's strongest yet — refined classics, new Ferrari HyperSail innovation, and a sustainability commitment that's woven into every fabric choice. Whether you're racing offshore, cruising the coast, or simply want to carry a piece of sailing heritage with you, North Sails delivers gear that performs as well as it looks. That's a rare combination, and it's why North Sails remains the worldwide leader — on the water and off.`
   },
   {
+    slug: '10-best-fenty-beauty-products-to-try-2026',
+    title: '10 Best Fenty Beauty Products to Try in 2026',
+    description: 'From complexion icons to the gloss that launched a thousand shiny lips, these are the 10 Fenty Beauty products most worth adding to your routine in 2026.',
+    category: 'Beauty',
+    image: '/images/blog/fenty-beauty/fenty-beauty-2026-hero.png',
+    date: '2026-07-18',
+    content: `Fenty Beauty did more than arrive with great packaging. It changed what shoppers expect from a modern makeup brand: thoughtful shade ranges, high-impact formulas and products that are genuinely fun to use. Nearly a decade after its debut, the line has grown into a full wardrobe of complexion, cheek, lip and eye essentials—and that makes knowing where to start a little harder.
+
+This edit focuses on the products that best express what Fenty does well in 2026. We looked for formulas with a clear purpose, flexible application and enough versatility to earn their place in a real makeup bag. Some are enduring icons; others are newer refinements that make an everyday routine feel easier.
+
+No single formula works for every skin type, finish preference or budget. Use the “best for” notes below as your shortcut, then choose shades and textures based on your own skin. Prices, shades and availability can change, so check the official product page for the latest details before ordering.
+
+## The Quick List
+
+1. **Best luminous foundation:** Soft'Lit Naturally Luminous Longwear Foundation
+2. **Best everyday base:** Eaze Drop Lightweight Blurring Skin Tint
+3. **Best hydrating concealer:** We're Even Hydrating Longwear Concealer
+4. **Best contour:** Match Stix Contour Skinstick
+5. **Best cream blush:** Cheeks Out Freestyle Cream Blush
+6. **Best statement highlighter:** Diamond Bomb All-Over Diamond Veil
+7. **Best lip gloss:** Gloss Bomb Universal Lip Luminizer
+8. **Best low-maintenance lip color:** Poutsicle Hydrating Lip Stain
+9. **Best volume mascara:** Hella Thicc Volumizing Mascara
+10. **Best on-the-go powder:** Invisimatte Instant Setting + Blotting Powder
+
+## How We Chose the Best Fenty Beauty Products
+
+We prioritized products that fill a distinct role rather than choosing ten variations of the same look. The final list balances everyday staples with a few unmistakably Fenty statement makers. We considered finish, shade flexibility, ease of application, wear, portability and how naturally each item fits into a complete routine.
+
+Fenty's complexion range remains its biggest strength, so four of the ten picks help build, shape or set the base. The rest bring color, shine and definition without requiring professional-level technique.
+
+![Four models with varied skin tones wearing luminous, natural makeup](/images/blog/fenty-beauty/fenty-inclusive-complexion-editorial.png)
+*Original editorial artwork created for this guide to celebrate complexion products across skin tones.*
+
+## The 10 Best Fenty Beauty Products to Try in 2026
+
+### 1. Soft'Lit Naturally Luminous Longwear Foundation — Best Luminous Foundation
+
+Soft'Lit is the pick for anyone who wants polished coverage without a flat, powdered look. The lightweight liquid formula offers buildable medium coverage and a natural, skin-like glow. Its 50-shade range makes it easier to match both depth and undertone, while the hydrating finish is especially appealing for balanced or drier skin.
+
+The appeal is control. One light layer evens tone while allowing freckles and natural dimension to show; a second pass can build coverage around redness or discoloration. Apply from the center of the face outward with a damp sponge for the sheerest result, or use a dense brush when you want more refinement.
+
+**Best for:** Balanced-to-dry skin, special events and anyone who prefers radiance over a powdery matte finish.
+
+**Keep in mind:** Very oily skin may need primer and strategic powder through the T-zone. Always shade-match in daylight and give the formula time to settle before deciding.
+
+### 2. Eaze Drop Lightweight Blurring Skin Tint — Best Everyday Base
+
+Eaze Drop is the “my skin, but smoother” option in the lineup. It comes in 25 flexible shades and offers light-to-medium buildable coverage with a natural finish. The fluid texture spreads quickly with fingers, which makes it ideal for mornings when a full foundation routine feels like too much.
+
+It softens the appearance of uneven tone and pores without trying to erase every bit of real skin. Shake the bottle well, start with a few drops and add only where needed. Because the shades are designed to flex across nearby tones, it can also be easier to choose than a traditional full-coverage foundation.
+
+**Best for:** Beginners, quick routines, travel and people who want breathable-looking coverage.
+
+**Keep in mind:** This is a tint, not camouflage. Pair it with concealer if you want targeted coverage over blemishes or under the eyes.
+
+### 3. We're Even Hydrating Longwear Concealer — Best Hydrating Concealer
+
+We're Even brings skincare-minded comfort to the concealer step. Its medium coverage is buildable, the finish looks natural rather than chalky and the 50-shade range gives you room to choose a true skin match or a subtly brighter under-eye shade.
+
+The formula is designed to resist creasing, fading, sweat and humidity while maintaining a lightweight second-skin feel. That balance makes it useful beyond the under-eye area: dot it around the nose, over discoloration or on any area where your base needs extra help. Blend in thin layers and let each one settle before adding more.
+
+**Best for:** Balanced-to-dry skin, under-eye brightening and spot concealing without a heavy finish.
+
+**Keep in mind:** If your eye area creases easily, use less product than you think you need and set only the deepest fold with a small amount of powder.
+
+### 4. Match Stix Contour Skinstick — Best Contour
+
+Match Stix makes sculpting feel far less intimidating. The cream-to-powder stick format is portable, tidy and easy to place beneath cheekbones, along the jaw or around the perimeter of the forehead. The contour shades lean suitably shadow-like, helping create dimension without turning the face orange.
+
+For the most seamless result, warm a little product on the back of your hand and pick it up with a brush rather than drawing a heavy stripe directly onto the face. That extra ten seconds gives you more control and prevents the contour from disturbing foundation underneath.
+
+**Best for:** Defined everyday makeup, travel and anyone who values a compact, mess-free format.
+
+**Keep in mind:** The quick-setting texture rewards light layers. Work one area at a time instead of mapping the whole face and blending later.
+
+### 5. Cheeks Out Freestyle Cream Blush — Best Cream Blush
+
+Cheeks Out delivers the kind of fresh color that looks integrated with skin rather than sitting on top of it. The cream feels light and non-greasy, then blends into a sheer wash that can be built from barely-there to bright. Its shade range spans soft pinks and peaches through berries, wines and bolder tones designed to remain visible across complexions.
+
+Tap it on with fingers for speed or use a duo-fiber brush for a diffused edge. A tiny amount over the bridge of the nose can tie a sun-warmed look together; for longer wear, layer a coordinating powder blush lightly on top.
+
+**Best for:** Dewy makeup, dry or textured skin and blush beginners who want forgiving blend time.
+
+**Keep in mind:** Shade intensity varies. Start with less on fair-to-light skin, while deeper complexions may get the best payoff from the richer berry and wine tones.
+
+### 6. Diamond Bomb All-Over Diamond Veil — Best Statement Highlighter
+
+Diamond Bomb is less of a conventional highlighter and more of a light-catching topcoat. Its jelly-powder texture creates a sparkling, multidimensional veil on cheekbones, eyes, collarbones or shoulders. It is the pick for nights out, photos and moments when subtle candlelight glow simply is not the assignment.
+
+Press it on with a finger or a dense brush for concentrated sparkle; use a fluffy brush for a lighter dusting. The bouncy texture helps the shimmer adhere better than loose glitter, and the faceted compact makes the whole experience feel appropriately special.
+
+**Best for:** Parties, festival looks, body highlighting and anyone who wants unmistakable sparkle.
+
+**Keep in mind:** Visible shimmer can emphasize texture. Keep it on the high points of the face and avoid sweeping it across areas where you prefer a smooth finish.
+
+### 7. Gloss Bomb Universal Lip Luminizer — Best Lip Gloss
+
+Gloss Bomb remains the easiest Fenty product to recommend. It combines mirror-like shine with a cushioned feel and nourishing ingredients, including shea butter, vitamin E and peptide. The oversized applicator coats the lips quickly, and the broad shade selection ranges from crystal-clear shine to warm neutrals and playful shimmer.
+
+Fenty Glow is the classic starting point: a rosy nude designed to flatter a wide spectrum of skin tones. Wear it alone, pair it with a brown or rose lip liner, or tap it over lipstick at the center of the lips for extra dimension.
+
+**Best for:** Nearly everyone—especially first-time Fenty shoppers and gloss lovers who want comfort plus high shine.
+
+**Keep in mind:** A plush gloss will always have some tack. If you prefer a weightless balm feel, apply one thin swipe instead of repeatedly layering.
+
+### 8. Poutsicle Hydrating Lip Stain — Best Low-Maintenance Lip Color
+
+Poutsicle solves a familiar problem: wanting vivid lip color without monitoring it all day. It goes on glossy and juicy, then leaves behind a softer tint as the initial shine fades. The sheer-to-medium coverage is customizable, while squalane helps keep the formula comfortable.
+
+For the cleanest stain, smooth dry patches with lip balm beforehand, blot away excess balm and apply a thin, even coat. Let it develop before pressing the lips together. One layer gives a watercolor effect; a second increases saturation.
+
+**Best for:** Summer, meals, travel and anyone who likes color that fades more gracefully than traditional lipstick.
+
+**Keep in mind:** Stains can cling to flaky areas and look different on naturally pigmented lips. Prep well and expect each shade to become uniquely yours.
+
+### 9. Hella Thicc Volumizing Mascara — Best Volume Mascara
+
+Hella Thicc is built for bold, plush lashes. The formula and tapered brush focus on loading volume from root to tip while still reaching the smaller lashes at the inner and outer corners. One coat adds everyday definition; additional passes create the denser look promised by the name.
+
+Wiggle the brush at the root, then pull upward slowly. Build the second coat while the first is still slightly tacky to reduce clumps. Use the narrow tip vertically to separate corners and define lower lashes with more precision.
+
+**Best for:** Sparse or fine lashes, evening makeup and anyone who prioritizes density over a delicate no-makeup effect.
+
+**Keep in mind:** Rich volumizing formulas can feel like too much if you naturally have very thick lashes. Wipe excess from the wand and stop after one controlled coat for a cleaner result.
+
+### 10. Invisimatte Instant Setting + Blotting Powder — Best On-the-Go Powder
+
+Invisimatte is the quiet workhorse of the list. The universal sheer powder is designed to absorb shine, blur the appearance of pores and extend makeup wear without adding obvious color. Its refillable compact is slim enough for a handbag and particularly useful for midday T-zone touch-ups.
+
+The technique matters: press or roll a small brush or puff over shiny areas instead of sweeping aggressively. Blot excess oil first when necessary, then add the thinnest veil of powder. This keeps the finish fresh and avoids building cakey layers over the course of a long day.
+
+**Best for:** Oily T-zones, humid weather, photographs and anyone who wants one powder that works across seasonal shade changes.
+
+**Keep in mind:** “Universal” does not mean completely invisible under every lighting condition. Apply sparingly and check flash photography before an important event.
+
+## How to Build a Simple Fenty Routine
+
+You do not need all ten products at once. For a polished five-minute face, start with Eaze Drop, spot-conceal with We're Even, tap on Cheeks Out and finish with Hella Thicc plus Gloss Bomb. That combination gives you even-looking skin, fresh color and definition without a complicated technique.
+
+For a longer-wearing event look, switch the tint for Soft'Lit, sculpt lightly with Match Stix and keep Invisimatte nearby for touch-ups. Add Diamond Bomb only where you want the light to land. The result still feels modern because each step is placed deliberately rather than layered everywhere.
+
+## What to Consider Before You Buy
+
+**Choose finish before coverage.** A radiant medium-coverage foundation can look more flattering than a matte full-coverage one if your skin is dry, while a skin tint may need more maintenance than expected on a very oily T-zone.
+
+**Treat shade matching as a process.** Match complexion products to the face, neck and chest in natural light. Note whether your undertone reads warm, cool or neutral, and allow liquid products a few minutes to settle before judging the match.
+
+**Start with the category you use most.** If you already own a base you love, Gloss Bomb or Cheeks Out will add something new more quickly than another foundation. If shade range has been your biggest obstacle, begin with Soft'Lit or We're Even.
+
+**Check current details before checkout.** Shade names, sets, minis, regional availability and promotional pricing may change. The official Fenty Beauty site is the best place to confirm what is available where you live.
+
+## Final Verdict
+
+The best first Fenty Beauty purchase is still Gloss Bomb: it is easy, flattering and unmistakably fun. For complexion shoppers, Soft'Lit is the standout polished base, while Eaze Drop wins for speed and everyday ease. Cheeks Out offers the most beginner-friendly color product, and Invisimatte is the practical pick that can rescue an entire makeup look halfway through the day.
+
+Whichever product you choose, buy for the way you actually get ready—not for an imaginary 20-step routine. Fenty is at its best when one smart formula makes makeup feel more inclusive, expressive and effortless.`
+  },
+  {
     slug: '10-best-shelly-smart-home-devices-automation-2026',
     title: '10 Best Shelly Smart Home Devices for Automation in 2026',
     description: 'Transform your home into an intelligent automation hub with the best Shelly smart home devices of 2026. From Wi-Fi relays and sensors to smart plugs and thermostats — discover the top Shelly products for effortless, reliable, and affordable home automation.',
@@ -4336,5 +4495,7 @@ export function getBlogPost(slug: string): BlogPost | undefined {
 }
 
 export function getAllBlogPosts(): BlogPost[] {
-  return blogPosts;
+  return [...blogPosts].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
 }

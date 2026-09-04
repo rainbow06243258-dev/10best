@@ -69,7 +69,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   }
 
   const readingTime = getReadingTime(post.content);
-  const categoryGradient = getCategoryColor(post.category);
+  const categoryGradient = params.slug === '10-best-fenty-beauty-products-to-try-2026'
+    ? 'from-rose-700 via-fuchsia-600 to-amber-500'
+    : getCategoryColor(post.category);
   const relatedPosts = getAllBlogPosts()
     .filter(p => p.slug !== post.slug && p.category === post.category)
     .slice(0, 3);
@@ -165,6 +167,47 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
                   {/* CTA Boxes at top (before content) */}
                   <div className="space-y-6">
+
+                {params.slug === '10-best-fenty-beauty-products-to-try-2026' && (
+                  <div className="mb-8 overflow-hidden rounded-3xl border border-rose-200 bg-gradient-to-br from-[#fff8f5] via-rose-50 to-amber-50 shadow-xl shadow-rose-100/60">
+                    <div className="relative px-6 py-9 text-center sm:px-10 sm:py-11">
+                      <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-fuchsia-200/40 blur-3xl" />
+                      <div className="absolute -bottom-16 -left-12 h-44 w-44 rounded-full bg-amber-200/50 blur-3xl" />
+                      <div className="relative z-10 space-y-5">
+                        <span className="inline-flex items-center rounded-full border border-rose-200 bg-white/80 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.18em] text-rose-700 shadow-sm">
+                          The Fenty Edit · 2026
+                        </span>
+                        <div>
+                          <h3 className="text-2xl font-extrabold text-gray-950 sm:text-3xl">
+                            Find Your Next Fenty Favorite
+                          </h3>
+                          <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-gray-700 sm:text-lg">
+                            Explore complexion, cheek, lip and eye essentials on the official Fenty Beauty site. Check the latest shades, sets and availability before you choose.
+                          </p>
+                        </div>
+                        <div className="flex flex-wrap justify-center gap-2 text-xs font-medium text-gray-700 sm:text-sm">
+                          <span className="rounded-full border border-white bg-white/80 px-3 py-1.5 shadow-sm">50-shade complexion options</span>
+                          <span className="rounded-full border border-white bg-white/80 px-3 py-1.5 shadow-sm">100% cruelty free</span>
+                          <span className="rounded-full border border-white bg-white/80 px-3 py-1.5 shadow-sm">Makeup for every mood</span>
+                        </div>
+                        <Button
+                          asChild
+                          size="lg"
+                          className="h-auto rounded-full bg-gradient-to-r from-rose-700 via-fuchsia-700 to-amber-600 px-8 py-4 text-base font-bold text-white shadow-xl shadow-rose-300/40 transition-all duration-300 hover:-translate-y-0.5 hover:from-rose-800 hover:via-fuchsia-800 hover:to-amber-700 hover:shadow-2xl sm:px-10 sm:text-lg"
+                        >
+                          <a
+                            href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a083ws00pc6Vd2_ay0FZuXR9rss_bCSMg7JjGosPQOULvpAGuA8pBPoDv5ag1HQ4yM_bXJvJdaEv9IxofXw6Iqv8yoBb71OWIQNRdvuqA_c_c&new=https%3A%2F%2Fwww.fentybeauty.com%2F"
+                            target="_blank"
+                            rel="sponsored noopener noreferrer"
+                          >
+                            Shop Fenty Beauty Official →
+                          </a>
+                        </Button>
+                        <p className="text-xs text-gray-500">Affiliate link · Opens the official Fenty Beauty website</p>
+                      </div>
+                    </div>
+                  </div>
+                )}
 
                 {params.slug === '10-best-petal-and-pup-dresses-worth-buying-2026' && (
                   <div className="mb-8 p-8 bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl border-2 border-rose-200 shadow-lg">
@@ -709,6 +752,29 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                             {paragraph.replace('### ', '')}
                           </h3>
                         );
+                      } else if (paragraph.startsWith('![')) {
+                        const imageMatch = paragraph.match(/^!\[([^\]]+)\]\(([^)]+)\)(?:\n\*([^*]+)\*)?$/);
+                        if (imageMatch) {
+                          const [, imageAlt, imageUrl, imageCaption] = imageMatch;
+                          return (
+                            <figure key={index} className="my-10 overflow-hidden rounded-2xl border border-rose-100 bg-rose-50/40 shadow-lg">
+                              <div className="aspect-[16/9] overflow-hidden bg-gray-100">
+                                <img
+                                  src={imageUrl}
+                                  alt={imageAlt}
+                                  loading="lazy"
+                                  className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+                                />
+                              </div>
+                              {imageCaption && (
+                                <figcaption className="px-5 py-3 text-center text-sm leading-relaxed text-gray-500">
+                                  {imageCaption}
+                                </figcaption>
+                              )}
+                            </figure>
+                          );
+                        }
+                        return null;
                       } else if (paragraph.startsWith('**') && paragraph.endsWith('**') && !paragraph.includes('\n')) {
                         return (
                           <p key={index} className="font-semibold text-gray-800 mb-4 text-lg">

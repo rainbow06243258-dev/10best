@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp site-verification.txt out/",
+    "build": "next build && node -e \"require('fs').copyFileSync('site-verification.txt', 'out/site-verification.txt')\"",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
