@@ -71,7 +71,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const readingTime = getReadingTime(post.content);
   const categoryGradient = params.slug.includes('fenty-beauty')
     ? 'from-rose-700 via-fuchsia-600 to-amber-500'
-    : getCategoryColor(post.category);
+    : params.slug.includes('i-run')
+      ? 'from-slate-900 via-sky-700 to-lime-500'
+      : getCategoryColor(post.category);
   const relatedPosts = getAllBlogPosts()
     .filter(p => p.slug !== post.slug && p.category === post.category)
     .slice(0, 3);
